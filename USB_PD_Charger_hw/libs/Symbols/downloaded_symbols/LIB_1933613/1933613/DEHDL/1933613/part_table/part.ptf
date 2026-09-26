@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1933613'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1933613" (!) = "", "1933613", "Other", "651-1933613", "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1933613?qs=zUB8f6wPlfXfM6bULoSQLA%3D%3D", "", "", "MKDS 5/ 2-6,35 BK Z1L - Printed circuit board terminal, nominal current: 32 A, rated voltage (III/2): 630 V, nominal cross section: 4 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: MKDS 5, pitch: 6.35 mm, connection method: Screw connection with tension sleeve, screw head form: Z1L Slotted Pozidriv, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: black, Pin layout: Linear pinning, Solder pin [P]: 5.1 mm, number of solder p", "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-5-2-635-bk-z1l-1933613?type=pdf", "21.7 mm"
+END_PART
+
+END.

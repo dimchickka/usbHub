@@ -1,0 +1,9 @@
+Manufacturer=BelFuse
+PartNumber=0680H9150-05
+PartCategory=Fuse
+PackageCategory=Fuses Chip
+PinCount=2
+Version=1.1
+Released=2024-12-10 10:03:39
+Downloaded=2026-09-24 11:39:16
+3D=Y

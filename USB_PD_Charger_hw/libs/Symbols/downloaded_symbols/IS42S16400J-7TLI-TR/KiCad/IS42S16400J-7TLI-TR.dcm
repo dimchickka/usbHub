@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS42S16400J-7TLI-TR
+D DRAM 64M (4Mx16) 143MHz SDRAM, 3.3v
+K
+F http://www.issi.com/WW/pdf/42-45S16400J.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USB_PD_20Ports")(type "KiCad")(uri "${KIPRJMOD}/libs/USB_PD_20Ports.pretty")(options "")(descr ""))
+)

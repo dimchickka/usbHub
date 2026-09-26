@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "GD32F470ZGT6"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-19-14:17:05)
+    (mountForm default
+        (footprintRef "QFP50P2200X2200X160-144N")
+        (spec "System")
+    )
+)

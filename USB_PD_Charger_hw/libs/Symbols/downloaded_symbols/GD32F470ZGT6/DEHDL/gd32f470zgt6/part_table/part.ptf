@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'GD32F470ZGT6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "GigaDevice Semiconductor (HK) Limited", "GD32F470ZGT6" (!) = "", "QFP50P2200X2200X160-144N", "Quad Flat Packages", "", "", "", "", "GD32F470ZGT6", "https://4donline.ihs.com/images/VipMasterIC/IC/GGDS/GGDS-S-A0015408590/GGDS-S-A0015408590-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0", "1.6 mm"
+END_PART
+
+END.

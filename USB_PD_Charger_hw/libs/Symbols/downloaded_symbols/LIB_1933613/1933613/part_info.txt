@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1933613
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=6.2
+Released=2022-01-12 14:08:48
+Downloaded=2026-09-24 11:38:47
+3D=Y

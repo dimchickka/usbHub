@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0680H9150-05
+D Surface Mount Fuses 2410 SMD Fuse. Slow Blow, 15A, Silver Plating
+K
+F https://www.belfuse.com/resources/datasheets/circuitprotection/ds-CP-0680H-series.pdf
+$ENDCMP
+#
+#End Doc Library

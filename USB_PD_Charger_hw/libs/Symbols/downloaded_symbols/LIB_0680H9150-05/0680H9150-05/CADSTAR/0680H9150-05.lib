@@ -1,0 +1,18 @@
+.0680H9150-05 :1 ;Surface Mount Fuses 2410 SMD Fuse. Slow Blow, 15A, Silver Plating
+FUSC6125X279N
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 0680H9150-05
+~!Manufacturer_Name (BelFuse)
+~!Manufacturer_Part_Number (0680H9150-05)
+~!Mouser Part Number (530-0680H9150-05)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bel-Fuse/0680H9150-05?qs=Y0Uzf4wQF3k6z0yWEkrkHQ%3D%3D)
+~!Arrow Part Number (0680H9150-05)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/0680h9150-05/bel-group?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.belfuse.com/resources/datasheets/circuitprotection/ds-CP-0680H-series.pdf)
+~!Height (2.79mm)
+~!3D_Model (0680H9150-05)
+"0680H9150-05"
+1.1!U 2.1!U 

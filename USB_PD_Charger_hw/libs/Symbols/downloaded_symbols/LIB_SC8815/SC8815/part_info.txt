@@ -1,0 +1,9 @@
+Manufacturer=Southchip
+PartNumber=SC8815
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=33
+Version=1.1
+Released=2021-07-27 06:53:04
+Downloaded=2026-09-17 09:59:12
+3D=Y

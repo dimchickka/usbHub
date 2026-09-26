@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IS42S16400J-7TLI-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-07-03-05:34:03)
+    (mountForm default
+        (footprintRef "SOP80P1176X120-54N")
+        (spec "System")
+    )
+)

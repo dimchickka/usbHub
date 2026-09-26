@@ -1,0 +1,21 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+1933613 1933613 I CON 9 1 0 0 0
+TIMESTAMP 2026.09.24.11.38.47
+"Manufacturer_Name" Phoenix Contact
+"Manufacturer_Part_Number" 1933613
+"Mouser Part Number" 651-1933613
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1933613?qs=zUB8f6wPlfXfM6bULoSQLA%3D%3D
+"Arrow Part Number" 
+"Arrow Price/Stock" 
+"Description" MKDS 5/ 2-6,35 BK Z1L - Printed circuit board terminal, nominal current: 32 A, rated voltage (III/2): 630 V, nominal cross section: 4 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: MKDS 5, pitch: 6.35 mm, connection method: Screw connection with tension sleeve, screw head form: Z1L Slotted Pozidriv, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: black, Pin layout: Linear pinning, Solder pin [P]: 5.1 mm, number of solder p
+"Datasheet Link" https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-5-2-635-bk-z1l-1933613?type=pdf
+"Geometry.Height" 21.7mm
+GATE 1 2 0
+1933613
+1 0 U 1
+2 0 U 2
+
+*END*
+*REMARK* SamacSys ECAD Model
+1196789/2105283/2.50/2/2/Connector

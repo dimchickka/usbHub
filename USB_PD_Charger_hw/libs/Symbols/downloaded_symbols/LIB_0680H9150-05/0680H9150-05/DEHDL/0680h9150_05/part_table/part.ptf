@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '0680H9150_05'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "BelFuse", "0680H9150-05" (!) = "", "FUSC6125X279N", "Fuses Chip", "530-0680H9150-05", "https://www.mouser.co.uk/ProductDetail/Bel-Fuse/0680H9150-05?qs=Y0Uzf4wQF3k6z0yWEkrkHQ%3D%3D", "0680H9150-05", "https://www.arrow.com/en/products/0680h9150-05/bel-group?utm_currency=USD&region=nac", "Surface Mount Fuses 2410 SMD Fuse. Slow Blow, 15A, Silver Plating", "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-CP-0680H-series.pdf", "2.79 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.PESD5V0S2BT-Q_GR :1 ;Low capacitance bidirectional double ESD protection diode
+SOT95P230X110-3N
+*STM D
+*NGS
+*PLB 1="K1" 2="K2" 3="CC"
+*MXP 3
+*DFN PESD5V0S2BT-Q_GR
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PESD5V0S2BT-Q/GR)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PESD5V0S2BT-Q.pdf)
+~!Height (1.1mm)
+~!3D_Model (PESD5V0S2BT-Q_GR)
+PESD5V0S2BT-Q_GR
+1.1!U 2.1!U 3.1!U 
