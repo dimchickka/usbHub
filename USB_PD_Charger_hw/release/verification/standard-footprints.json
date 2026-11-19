@@ -1,0 +1,25 @@
+{
+  "local_aliases_added": [
+    "Capacitor_SMD",
+    "Capacitor_Tantalum_SMD",
+    "Connector_FFC-FPC",
+    "Diode_SMD",
+    "Inductor_SMD",
+    "Package_TO_SOT_SMD",
+    "Resistor_SMD",
+    "TestPoint"
+  ],
+  "copied_files": [
+    "libs/Standard/Capacitor_SMD.pretty/CP_Elec_10x10.5.kicad_mod",
+    "libs/Standard/Capacitor_SMD.pretty/C_1206_3216Metric.kicad_mod",
+    "libs/Standard/Capacitor_Tantalum_SMD.pretty/CP_EIA-3216-18_Kemet-A.kicad_mod",
+    "libs/Standard/Connector_FFC-FPC.pretty/Omron_XF2M-4015-1A_1x40-1MP_P0.5mm_Horizontal.kicad_mod",
+    "libs/Standard/Diode_SMD.pretty/D_SMA.kicad_mod",
+    "libs/Standard/Diode_SMD.pretty/D_SMB-SMC_Universal_Handsoldering.kicad_mod",
+    "libs/Standard/Inductor_SMD.pretty/L_1210_3225Metric.kicad_mod",
+    "libs/Standard/Inductor_SMD.pretty/L_TaiTech_TMPC1265_13.5x12.5mm.kicad_mod",
+    "libs/Standard/Package_TO_SOT_SMD.pretty/TO-263-5_TabPin3.kicad_mod",
+    "libs/Standard/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "libs/Standard/TestPoint.pretty/TestPoint_Pad_D2.0mm.kicad_mod"
+  ]
+}

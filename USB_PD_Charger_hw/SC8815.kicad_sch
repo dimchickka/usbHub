@@ -2095,7 +2095,7 @@
 		(uuid "2f843844-05e9-4105-9319-d680078688d8")
 	)
 	(junction
-		(at 167.64 106.68)
+		(at 167.64 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31e457e7-3ab7-476e-a1d6-07d55645af8f")
@@ -2161,7 +2161,7 @@
 		(uuid "6da3958e-6eb5-49cd-b62a-0a281dcd3ac8")
 	)
 	(junction
-		(at 167.64 114.3)
+		(at 167.64 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70536c4e-5147-4797-96b3-b4d0c54f18c1")
@@ -2608,16 +2608,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 114.3) (xy 167.64 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d7bde1-2da9-4100-b923-d5509a3edc47")
-	)
-	(wire
-		(pts
 			(xy 125.73 106.68) (xy 137.16 106.68)
 		)
 		(stroke
@@ -2788,6 +2778,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 106.68) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a15613-c631-4e9c-b0c0-851cdb9e7192")
+	)
+	(wire
+		(pts
 			(xy 273.05 127) (xy 273.05 133.35)
 		)
 		(stroke
@@ -2835,16 +2835,6 @@
 			(type default)
 		)
 		(uuid "5cbf76af-03cd-4140-96f6-3ea8223f1b98")
-	)
-	(wire
-		(pts
-			(xy 123.19 196.85) (xy 123.19 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d344c68-3dc3-4785-bdfe-a4b1d6ca7439")
 	)
 	(wire
 		(pts
@@ -2898,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 125.73) (xy 181.61 114.3)
+			(xy 181.61 125.73) (xy 181.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2968,7 +2958,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 106.68) (xy 185.42 106.68)
+			(xy 167.64 97.79) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3108,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 167.64 106.68)
+			(xy 148.59 97.79) (xy 167.64 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3295,6 +3285,16 @@
 			(type default)
 		)
 		(uuid "a6339c55-273e-48df-ad31-b06fe0b0edd9")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 185.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b0ef86-3378-442c-b142-1cab4a142d39")
 	)
 	(wire
 		(pts
@@ -3498,16 +3498,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 187.96) (xy 123.19 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9458d51-5ec2-4943-a5fa-e54d2f178bc7")
-	)
-	(wire
-		(pts
 			(xy 130.81 143.51) (xy 130.81 147.32)
 		)
 		(stroke
@@ -3648,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 114.3) (xy 167.64 114.3)
+			(xy 181.61 110.49) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3685,16 +3675,6 @@
 			(type default)
 		)
 		(uuid "e325b4dc-e33b-47a8-991c-bd1f4bb0035a")
-	)
-	(wire
-		(pts
-			(xy 167.64 114.3) (xy 167.64 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b2d6da-f2c2-4586-b194-c8c55b3a4105")
 	)
 	(wire
 		(pts
@@ -3765,16 +3745,6 @@
 			(type default)
 		)
 		(uuid "f7585584-d0a6-468b-99bf-24e9fde4043a")
-	)
-	(wire
-		(pts
-			(xy 167.64 120.65) (xy 167.64 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f77e1ba8-2e1d-4883-9e6d-1d9ece4436b2")
 	)
 	(wire
 		(pts
@@ -3897,7 +3867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CJAB25N04S_PDFNWB3.3x3.3-8L"
+		(property "Footprint" "USB_PD_20Ports:CJAB25N04S_PDFNWB3.3x3.3-8L"
 			(at 245.11 115.57 0)
 			(effects
 				(font
@@ -4496,7 +4466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "USB_PD_20Ports:CP_Elec_6.3x5.8_Pad2Plus"
 			(at 370.84 107.95 90)
 			(effects
 				(font
@@ -4551,7 +4521,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "-"
+		(property "PN" "EEHZA1H220P"
 			(at 373.38 111.76 0)
 			(effects
 				(font
@@ -4560,7 +4530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
+		(property "Manufacturer" "Panasonic"
 			(at 373.38 111.76 0)
 			(effects
 				(font
@@ -4569,7 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X5R or X7R"
+		(property "Dielectric" "Hybrid aluminum polymer"
 			(at 373.38 111.76 0)
 			(effects
 				(font
@@ -4596,7 +4566,7 @@
 				(justify left)
 			)
 		)
-		(property "URL" "https://www.chipdip.ru/product/22mkf-x5r-10v-20-0603-grm188r61a226me15d-kondensator-murata-9000318419"
+		(property "URL" "https://www.chipdip.ru/product/eehza1h220p-kondensator-gibridnyy-22mkf-50vdc-esr-panasonic-8008761508"
 			(at 373.38 111.76 0)
 			(effects
 				(font
@@ -10431,7 +10401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+		(property "Footprint" "USB_PD_20Ports:CP_Elec_10x10.5_Pad2Plus"
 			(at 361.95 107.95 90)
 			(effects
 				(font
@@ -11505,7 +11475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CJAB25N04S_PDFNWB3.3x3.3-8L"
+		(property "Footprint" "USB_PD_20Ports:CJAB25N04S_PDFNWB3.3x3.3-8L"
 			(at 293.37 113.03 0)
 			(effects
 				(font
@@ -11869,8 +11839,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 167.64 109.22 0)
+		(lib_id "Tittar_kl:R")
+		(at 167.64 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11879,7 +11849,7 @@
 		(fields_autoplaced yes)
 		(uuid "91c09e98-7206-413a-9758-1cbb9a8893cf")
 		(property "Reference" "R15"
-			(at 170.18 107.9499 0)
+			(at 170.18 102.87 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11888,16 +11858,15 @@
 			)
 		)
 		(property "Value" "470K"
-			(at 170.18 110.4899 0)
+			(at 167.64 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistors:RES_0603"
-			(at 167.64 109.22 0)
+		(property "Footprint" "Resistors:RES_0603_Silks"
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11906,7 +11875,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.chipdip.ru/product/0.1vt-0603-470-kom-1-rc0603fr-07470kl-chip-rezistor-yageo-9000403434"
-			(at 167.64 109.22 0)
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +11884,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 109.22 0)
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12994,8 +12963,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 167.64 118.11 0)
+		(lib_id "Tittar_kl:R")
+		(at 167.64 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13004,7 +12973,7 @@
 		(fields_autoplaced yes)
 		(uuid "a60f0ea9-00c7-451d-a9a4-ce3fb9a1bc7a")
 		(property "Reference" "R20"
-			(at 170.18 116.8399 0)
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13013,16 +12982,15 @@
 			)
 		)
 		(property "Value" "24.9K"
-			(at 170.18 119.3799 0)
+			(at 167.64 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistors:RES_0603"
-			(at 167.64 118.11 0)
+		(property "Footprint" "Resistors:RES_0603_Silks"
+			(at 167.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +12999,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.chipdip.ru/product/0.1vt-0603-24.9-kom-1-rc0603fr-0724k9l-chip-rezistor-yageo-9000157668"
-			(at 167.64 118.11 0)
+			(at 167.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13040,7 +13008,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 118.11 0)
+			(at 167.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13619,7 +13587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Tittar_kl:R")
 		(at 123.19 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13629,7 +13597,7 @@
 		(fields_autoplaced yes)
 		(uuid "afe6b8c3-7f1a-43ea-8d09-659921c2905f")
 		(property "Reference" "R33"
-			(at 125.73 193.0399 0)
+			(at 125.73 193.04 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13638,15 +13606,14 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 125.73 195.5799 0)
+			(at 123.19 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistors:RES_0603"
+		(property "Footprint" "Resistors:RES_0603_Silks"
 			(at 123.19 194.31 0)
 			(effects
 				(font
@@ -13791,7 +13758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "USB_PD_20Ports:CP_Elec_6.3x5.8_Pad2Plus"
 			(at 379.73 107.95 90)
 			(effects
 				(font
@@ -13846,7 +13813,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "-"
+		(property "PN" "EEHZA1H220P"
 			(at 382.27 111.76 0)
 			(effects
 				(font
@@ -13855,7 +13822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
+		(property "Manufacturer" "Panasonic"
 			(at 382.27 111.76 0)
 			(effects
 				(font
@@ -13864,7 +13831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X5R or X7R"
+		(property "Dielectric" "Hybrid aluminum polymer"
 			(at 382.27 111.76 0)
 			(effects
 				(font
@@ -13891,7 +13858,7 @@
 				(justify left)
 			)
 		)
-		(property "URL" "https://www.chipdip.ru/product/22mkf-x5r-10v-20-0603-grm188r61a226me15d-kondensator-murata-9000318419"
+		(property "URL" "https://www.chipdip.ru/product/eehza1h220p-kondensator-gibridnyy-22mkf-50vdc-esr-panasonic-8008761508"
 			(at 382.27 111.76 0)
 			(effects
 				(font
@@ -15337,7 +15304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "USB_PD_20Ports:CP_Elec_6.3x5.8_Pad2Plus"
 			(at 134.62 107.95 90)
 			(effects
 				(font
@@ -15392,7 +15359,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "-"
+		(property "PN" "EEHZA1H220P"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -15401,7 +15368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
+		(property "Manufacturer" "Panasonic"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -15410,7 +15377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X5R or X7R"
+		(property "Dielectric" "Hybrid aluminum polymer"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -15437,7 +15404,7 @@
 				(justify left)
 			)
 		)
-		(property "URL" "https://www.chipdip.ru/product/22mkf-x5r-10v-20-0603-grm188r61a226me15d-kondensator-murata-9000318419"
+		(property "URL" "https://www.chipdip.ru/product/eehza1h220p-kondensator-gibridnyy-22mkf-50vdc-esr-panasonic-8008761508"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -17630,7 +17597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "USB_PD_20Ports:CP_Elec_6.3x5.8_Pad2Plus"
 			(at 146.05 107.95 90)
 			(effects
 				(font
@@ -17685,7 +17652,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "-"
+		(property "PN" "EEHZA1H220P"
 			(at 148.59 111.76 0)
 			(effects
 				(font
@@ -17694,7 +17661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
+		(property "Manufacturer" "Panasonic"
 			(at 148.59 111.76 0)
 			(effects
 				(font
@@ -17703,7 +17670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X5R or X7R"
+		(property "Dielectric" "Hybrid aluminum polymer"
 			(at 148.59 111.76 0)
 			(effects
 				(font
@@ -17730,7 +17697,7 @@
 				(justify left)
 			)
 		)
-		(property "URL" "https://www.chipdip.ru/product/22mkf-x5r-10v-20-0603-grm188r61a226me15d-kondensator-murata-9000318419"
+		(property "URL" "https://www.chipdip.ru/product/eehza1h220p-kondensator-gibridnyy-22mkf-50vdc-esr-panasonic-8008761508"
 			(at 148.59 111.76 0)
 			(effects
 				(font
@@ -17998,7 +17965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+		(property "Footprint" "USB_PD_20Ports:CP_Elec_10x10.5_Pad2Plus"
 			(at 123.19 107.95 90)
 			(effects
 				(font
@@ -18365,7 +18332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CJAB25N04S_PDFNWB3.3x3.3-8L"
+		(property "Footprint" "USB_PD_20Ports:CJAB25N04S_PDFNWB3.3x3.3-8L"
 			(at 312.42 104.14 0)
 			(effects
 				(font

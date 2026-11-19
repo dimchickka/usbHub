@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -117,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -129,10 +135,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +186,17 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.15,
+        0.2,
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +223,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -446,6 +467,10 @@
       "wire_dangling": "error"
     }
   },
+  "kicad_routing_tools": {
+    "records_rev": 1,
+    "same_net_pad_clearance": 0.25
+  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -473,6 +498,210 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CONTROL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GATE_CONTROL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND_PLANE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_24V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.5,
+        "via_drill": 0.8,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_AUX",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_LOCAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_PORT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.2,
+        "via_drill": 0.6,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_SWITCH",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SDRAM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.18,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SENSE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB2_DATA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -480,7 +709,1236 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD12-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD12-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD12-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD12-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD13-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD13-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD13-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD13-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD17-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD17-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD17-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD17-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD18-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD18-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD18-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD18-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD22-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD22-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD22-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD22-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD23-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD23-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD23-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD23-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD27-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD27-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD27-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD27-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD28-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD28-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD28-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD28-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD32-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD32-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD32-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD32-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD33-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD33-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD33-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD33-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD37-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD37-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD37-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD37-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD38-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD38-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD38-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD38-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD42-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD42-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD42-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD42-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD43-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD43-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD43-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD43-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD47-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD47-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD47-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD47-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD48-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD48-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD48-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD48-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD52-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD52-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD52-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD52-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD53-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD53-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD53-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD53-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD7-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD7-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD7-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD7-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD8-HD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD8-HD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD8-LD1)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(DD8-LD2)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q1-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q10-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q11-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q12-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q13-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q14-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q15-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q16-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q17-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q18-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q19-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q2-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q20-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q21-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q22-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q23-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q24-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q25-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q26-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q27-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q28-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q29-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q3-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q30-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q31-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q32-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q33-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q34-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q35-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q36-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q37-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q38-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q39-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q4-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q40-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q41-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q42-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q43-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q44-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q45-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q46-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q47-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q48-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q49-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q5-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q50-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q51-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q52-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q53-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q54-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q55-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q56-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q57-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q58-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q59-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q6-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q60-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q61-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q62-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q63-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q64-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q65-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q66-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q67-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q68-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q69-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q7-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q70-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q71-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q72-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q73-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q74-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q75-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q76-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q77-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q78-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q79-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q8-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q80-G)"
+      },
+      {
+        "netclass": "GATE_CONTROL",
+        "pattern": "Net-(Q9-G)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD12-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD12-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD12-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD13-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD13-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD13-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD17-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD17-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD17-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD18-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD18-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD18-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD22-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD22-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD22-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD23-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD23-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD23-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD27-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD27-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD27-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD28-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD28-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD28-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD32-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD32-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD32-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD33-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD33-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD33-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD37-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD37-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD37-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD38-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD38-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD38-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD42-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD42-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD42-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD43-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD43-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD43-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD47-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD47-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD47-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD48-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD48-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD48-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD52-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD52-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD52-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD53-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD53-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD53-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD7-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD7-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD7-VCC)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD8-BT1)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD8-BT2)"
+      },
+      {
+        "netclass": "PWR_LOCAL",
+        "pattern": "Net-(DD8-VCC)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD12-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD12-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD12-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD13-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD13-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD13-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD17-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD17-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD17-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD18-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD18-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD18-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD22-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD22-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD22-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD23-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD23-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD23-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD27-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD27-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD27-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD28-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD28-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD28-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD32-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD32-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD32-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD33-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD33-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD33-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD37-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD37-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD37-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD38-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD38-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD38-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD42-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD42-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD42-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD43-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD43-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD43-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD47-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD47-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD47-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD48-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD48-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD48-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD52-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD52-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD52-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD53-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD53-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD53-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD7-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD7-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD7-VBATS)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD8-ACIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD8-ADIN)"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD8-VBATS)"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM10_CS"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM1_CS"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM2_CS"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM3_CS"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM4_CS"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM5_CS"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM6_CS"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM7_CS"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM8_CS"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM9_CS"
+      },
+      {
+        "netclass": "USB2_DATA",
+        "pattern": "/USB-C_D+"
+      },
+      {
+        "netclass": "USB2_DATA",
+        "pattern": "/USB-C_D-"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/SDRAM_*"
+      },
+      {
+        "netclass": "SENSE",
+        "pattern": "Net-(DD*-SNS*)"
+      },
+      {
+        "netclass": "PWR_SWITCH",
+        "pattern": "Net-(DD*-SW?)"
+      },
+      {
+        "netclass": "PWR_SWITCH",
+        "pattern": "Net-(Q*-D)"
+      },
+      {
+        "netclass": "PWR_24V",
+        "pattern": "+24v"
+      },
+      {
+        "netclass": "PWR_24V",
+        "pattern": "Net-(F*-Pad1)"
+      },
+      {
+        "netclass": "PWR_PORT",
+        "pattern": "*/VBUS_USB_CON_*"
+      },
+      {
+        "netclass": "PWR_PORT",
+        "pattern": "/USB-C_VBUS"
+      },
+      {
+        "netclass": "PWR_3V3",
+        "pattern": "+3v3"
+      },
+      {
+        "netclass": "PWR_AUX",
+        "pattern": "/VDD_LCD"
+      },
+      {
+        "netclass": "PWR_AUX",
+        "pattern": "/VLED+"
+      },
+      {
+        "netclass": "PWR_AUX",
+        "pattern": "/VLED-"
+      },
+      {
+        "netclass": "GND_PLANE",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/STM_*"
+      },
+      {
+        "netclass": "CONTROL",
+        "pattern": "/Dual_USB_C_ports_*/STM_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -489,7 +1947,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "USB_PD_Charger.dsn",
       "step": "",
       "svg": "",
       "vrml": ""

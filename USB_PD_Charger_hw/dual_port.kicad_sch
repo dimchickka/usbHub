@@ -4255,12 +4255,12 @@
 		(uuid "fe21bb8b-80d1-4484-97ce-6c7f06169d38")
 	)
 	(label "VBUS_USB_CON_2"
-		(at 251.46 109.22 180)
+		(at 234.95 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0155d924-ea6d-425d-b827-4113c48b03b1")
 	)
@@ -4295,12 +4295,12 @@
 		(uuid "10768606-8c83-43e6-be87-adf12feaded6")
 	)
 	(label "VBUS_USB_CON_1"
-		(at 250.19 55.88 180)
+		(at 233.68 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "14229059-abf2-4dfb-926e-e3c5616065c4")
 	)
@@ -4355,12 +4355,12 @@
 		(uuid "39ff7ab3-7d4f-4419-8e7c-cc48f577da24")
 	)
 	(label "VBUS_USB_CON_2"
-		(at 251.46 86.36 180)
+		(at 234.95 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3a2857f1-4526-4d68-98d7-78451ef7fd56")
 	)
@@ -4395,12 +4395,12 @@
 		(uuid "542ad0e4-c475-4892-80de-58f206a08899")
 	)
 	(label "VBUS_USB_CON_1"
-		(at 250.19 33.02 180)
+		(at 233.68 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5a4d2fe5-d54e-4469-956f-09f9b1f66768")
 	)
@@ -4445,12 +4445,12 @@
 		(uuid "8b0d8031-1fbc-4997-a8a4-31e94d995403")
 	)
 	(label "STM_UART_MCU_RX"
-		(at 149.86 88.9 0)
+		(at 168.91 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8bb5ab8e-f007-4477-b65e-21e3da85befc")
 	)

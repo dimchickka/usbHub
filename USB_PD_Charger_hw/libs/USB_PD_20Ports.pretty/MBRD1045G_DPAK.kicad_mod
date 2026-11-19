@@ -292,4 +292,6 @@
 		(uuid "5a150e11-e060-4722-971e-8ce6f2dbd788")
 	)
 	(embedded_fonts no)
+
+	(model "${KIPRJMOD}/libs/3D/KiCad/Package_TO_SOT_SMD.3dshapes/TO-252-3_TabPin2.step" (offset (xyz 0.802 -7.564 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
 )

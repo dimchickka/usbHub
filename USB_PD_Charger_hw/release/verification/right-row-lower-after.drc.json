@@ -1,0 +1,1047 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-18T22:15:38+0300",
+    "kicad_version": "9.0.6",
+    "schematic_parity": [],
+    "source": "USB_PD_Charger.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Отсутствует соединение между элементами",
+            "items": [
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1,1500 mm",
+                    "pos": {
+                        "x": 478.3202,
+                        "y": 108.96
+                    },
+                    "uuid": "ef1b19f2-aa4f-4f4b-b526-749951612edc"
+                },
+                {
+                    "description": "Конт. пл. 5 [GND] от XL2 на F.Cu",
+                    "pos": {
+                        "x": 478.3202,
+                        "y": 109.46
+                    },
+                    "uuid": "9aa97e9a-fac0-434b-b32c-2b9ca29c21d8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Нарушение зазора (netclass 'PWR_PORT' зазор 0,2000 mm; текущий 0,1760 mm)",
+            "items": [
+                {
+                    "description": "Дорожка [/USB-C_VBUS] на In2.Cu, длина 8,8306 mm",
+                    "pos": {
+                        "x": 430.6871,
+                        "y": 147.832298
+                    },
+                    "uuid": "3cdeef9a-14f7-459f-b89d-2d47df09ec88"
+                },
+                {
+                    "description": "Перех. отв. [+3v3] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 430.992109,
+                        "y": 147.181298
+                    },
+                    "uuid": "9a767bd0-c966-4d34-a230-4ae00d2e85d8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_PORT' зазор 0,2000 mm; текущий 0,0250 mm)",
+            "items": [
+                {
+                    "description": "Дорожка [/USB-C_VBUS] на F.Cu, длина 2,9900 mm",
+                    "pos": {
+                        "x": 410.49,
+                        "y": 143.39
+                    },
+                    "uuid": "28bfcaea-de8e-4d68-a8bf-c1a42d10dc47"
+                },
+                {
+                    "description": "Дорожка [Net-(R273-Pad1)] на F.Cu, длина 11,1905 mm",
+                    "pos": {
+                        "x": 418.590501,
+                        "y": 143.19
+                    },
+                    "uuid": "79ebea4d-7805-42b2-83f2-e6e31cdfa07f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи /USB-C_VBUS и Net-(R273-Pad1))",
+            "items": [
+                {
+                    "description": "Перех. отв. [/USB-C_VBUS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 410.49,
+                        "y": 143.39
+                    },
+                    "uuid": "287324b4-bec9-490b-819d-7666f27b7b39"
+                },
+                {
+                    "description": "Дорожка [Net-(R273-Pad1)] на F.Cu, длина 11,1905 mm",
+                    "pos": {
+                        "x": 418.590501,
+                        "y": 143.19
+                    },
+                    "uuid": "79ebea4d-7805-42b2-83f2-e6e31cdfa07f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(R273-Pad1)] на F.Cu, длина 11,1905 mm",
+                    "pos": {
+                        "x": 418.590501,
+                        "y": 143.19
+                    },
+                    "uuid": "79ebea4d-7805-42b2-83f2-e6e31cdfa07f"
+                },
+                {
+                    "description": "Перех. отв. [/USB-C_VBUS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 410.49,
+                        "y": 143.39
+                    },
+                    "uuid": "287324b4-bec9-490b-819d-7666f27b7b39"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи /USB-C_VBUS и /Dual_USB_C_ports_6/STM_GPIO_INT2)",
+            "items": [
+                {
+                    "description": "Дорожка [/USB-C_VBUS] на In2.Cu, длина 18,7448 mm",
+                    "pos": {
+                        "x": 411.03,
+                        "y": 146.92
+                    },
+                    "uuid": "4d0af400-0b14-4826-a9cd-dd853973bdc1"
+                },
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 426.51,
+                        "y": 146.77
+                    },
+                    "uuid": "a6616567-d85a-4ad6-b487-f9aff615e043"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Дорожка [/USB-C_VBUS] на In2.Cu, длина 18,7448 mm",
+                    "pos": {
+                        "x": 411.03,
+                        "y": 146.92
+                    },
+                    "uuid": "4d0af400-0b14-4826-a9cd-dd853973bdc1"
+                },
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 426.51,
+                        "y": 146.77
+                    },
+                    "uuid": "a6616567-d85a-4ad6-b487-f9aff615e043"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Элементы замыкают две цепи (цепи /USB-C_VBUS и /Dual_USB_C_ports_6/STM_GPIO_PSTOP2)",
+            "items": [
+                {
+                    "description": "Дорожка [/USB-C_VBUS] на In2.Cu, длина 18,7448 mm",
+                    "pos": {
+                        "x": 411.03,
+                        "y": 146.92
+                    },
+                    "uuid": "4d0af400-0b14-4826-a9cd-dd853973bdc1"
+                },
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_PSTOP2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 424.966586,
+                        "y": 146.60453
+                    },
+                    "uuid": "ec094b64-c7ea-4610-b7d7-3fdb5bb18930"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0905 mm)",
+            "items": [
+                {
+                    "description": "Дорожка [/USB-C_VBUS] на In2.Cu, длина 18,7448 mm",
+                    "pos": {
+                        "x": 411.03,
+                        "y": 146.92
+                    },
+                    "uuid": "4d0af400-0b14-4826-a9cd-dd853973bdc1"
+                },
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_PSTOP2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 424.966586,
+                        "y": 146.60453
+                    },
+                    "uuid": "ec094b64-c7ea-4610-b7d7-3fdb5bb18930"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 146.9942
+                    },
+                    "uuid": "00c5e35d-2c10-4448-839d-b6a95973bb17"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 146.9942
+                    },
+                    "uuid": "3a085965-fd75-425b-aafe-ccc6f39327c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 242.2
+                    },
+                    "uuid": "031fcdaa-018a-4436-9a65-f5253ffc148e"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 242.2
+                    },
+                    "uuid": "7361de00-ac70-46f8-b447-8fc125d98800"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 393.52
+                    },
+                    "uuid": "03db8685-993d-40ed-8da8-08519f62be7c"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 393.52
+                    },
+                    "uuid": "a362f8ca-e0b5-443f-8a8a-c976cb2d971d"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 242.0
+                    },
+                    "uuid": "08fb17fc-1e3f-47bc-b1b4-080892ac1b4e"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 242.0
+                    },
+                    "uuid": "301c9b8c-aa99-4f87-9677-2adb83baf46d"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 349.7258
+                    },
+                    "uuid": "0f21d394-c1c5-41d1-91b8-e53ef2f20b5c"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 349.7258
+                    },
+                    "uuid": "47e84e59-1118-4081-ae35-40202a1939fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 323.92
+                    },
+                    "uuid": "11f48d62-94f3-42a6-8841-29764c1d0857"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 323.92
+                    },
+                    "uuid": "7581e78d-586a-4478-ba7b-68133122024d"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 289.32
+                    },
+                    "uuid": "14d199f9-ab4d-4933-a274-204419a16d09"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 289.32
+                    },
+                    "uuid": "220fe918-05a8-44cb-afe4-65e3f61f2da9"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 172.6
+                    },
+                    "uuid": "150c5c3d-1c29-434d-9ebb-a5c4fdd73e0a"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 172.6
+                    },
+                    "uuid": "e6f0d2c9-5cbb-4b65-b5b9-04c5bfd0b11e"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 488.9258
+                    },
+                    "uuid": "176ac009-c74e-4b7a-90ed-b5d24b6b9bbd"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 488.9258
+                    },
+                    "uuid": "8fa28b5b-9975-45bd-b1c3-62b9da48a041"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 251.3942
+                    },
+                    "uuid": "17efcdf4-6a6b-4fe3-ba36-f9f37b7eb7a4"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 251.3942
+                    },
+                    "uuid": "ea97d264-2da7-4f62-8e1b-4f5ca78195f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 314.7258
+                    },
+                    "uuid": "18af3bf5-dc2f-4c0f-bc20-a8d706b81081"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 314.7258
+                    },
+                    "uuid": "f0ffc182-2e44-49d4-9377-95568a8ccd33"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 289.12
+                    },
+                    "uuid": "19b72092-1af8-4e88-adfa-71f72abce0e1"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 289.12
+                    },
+                    "uuid": "5aaebf9d-d281-4ff4-a13b-bf6ae3916c12"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 216.5942
+                    },
+                    "uuid": "1eff5ede-2662-41aa-96fb-eccc0eaa1828"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 216.5942
+                    },
+                    "uuid": "d7b1541b-8c24-4072-b906-8c4f2b93d557"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 251.1942
+                    },
+                    "uuid": "1f12e776-0da6-4514-b63a-33b467205a63"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 251.1942
+                    },
+                    "uuid": "51febe08-dd01-4e1f-b3fa-0a4bdac90b86"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 181.5942
+                    },
+                    "uuid": "2069f4cf-0cc5-4ba9-87c8-f7192df25b92"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 181.5942
+                    },
+                    "uuid": "472d644c-0c72-4463-b2ab-d14976a55996"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 419.3258
+                    },
+                    "uuid": "3089ee75-0ada-4097-908d-ff133cdef9c8"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 419.3258
+                    },
+                    "uuid": "68ae2d6c-cc30-4c6f-b112-dd037bf084ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 358.72
+                    },
+                    "uuid": "336e88a9-3d8f-4f98-9530-bac41fc530bc"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 358.72
+                    },
+                    "uuid": "641ca232-de17-460c-bed6-3e79b22ea858"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 172.4
+                    },
+                    "uuid": "3546accd-132e-425f-98c6-89a57a88d0f9"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 172.4
+                    },
+                    "uuid": "a3a90b6f-c720-4498-87a1-041d608a81b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 146.7942
+                    },
+                    "uuid": "56d345b0-2b86-4157-9709-579a2c612847"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 146.7942
+                    },
+                    "uuid": "8dab1997-9d09-40ec-a330-94a7ab5481dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 419.1258
+                    },
+                    "uuid": "5d5b5152-53c9-478a-9a9c-9413751d9812"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 419.1258
+                    },
+                    "uuid": "e563b133-a9bd-44b8-a555-58afca49435b"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 207.4
+                    },
+                    "uuid": "61366530-4acf-4260-8b81-e3e409b2bbc0"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 207.4
+                    },
+                    "uuid": "ec04e6ff-00cf-43af-bafb-001520115a8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 384.3258
+                    },
+                    "uuid": "62b570b4-273d-4d1a-8a35-1339654bca4a"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 384.3258
+                    },
+                    "uuid": "d9c6c605-cecd-46a2-86a2-01fecbdf19c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 358.92
+                    },
+                    "uuid": "69477529-6320-4588-8621-d02a4a0f2fa4"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 358.92
+                    },
+                    "uuid": "a7bf078e-47f1-4824-89b9-a517f0c34b00"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 393.72
+                    },
+                    "uuid": "69d52e0c-d53e-4b6e-9154-fb2c81ecd24f"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 393.72
+                    },
+                    "uuid": "9b428393-36e7-49e6-acbf-1695e42c93ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 207.2
+                    },
+                    "uuid": "6b9d0f86-e318-444c-8395-3205b8e0072b"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 207.2
+                    },
+                    "uuid": "c6da1fc8-5b09-4c5c-a64d-8bf7a18e130b"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 314.9258
+                    },
+                    "uuid": "747b9acc-a22e-4d37-94c4-a9a5240eb232"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 314.9258
+                    },
+                    "uuid": "a85d1424-51ae-4327-ac29-976668c557d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 488.7258
+                    },
+                    "uuid": "7ca2eab5-0cb3-4e33-b072-a7a7cb64a579"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 488.7258
+                    },
+                    "uuid": "b627cf4a-8442-4a9e-b88b-720d1ae7e5ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 453.9258
+                    },
+                    "uuid": "7e927616-aa16-4be1-90ce-d20ebb0eeb8b"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 453.9258
+                    },
+                    "uuid": "f3de0ce7-d04c-453c-a76d-53fdb6769172"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 324.12
+                    },
+                    "uuid": "7fd363af-d01e-4a08-bd79-23e5bfe08bd6"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 324.12
+                    },
+                    "uuid": "b04fefae-58b6-4a98-a446-5d4208de52fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 276.8
+                    },
+                    "uuid": "8a17ded6-7f7f-4a9f-a7f4-de5f687aa373"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 276.8
+                    },
+                    "uuid": "e5810c10-7bd5-4bb4-bc55-cfa9be20a4dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 181.7942
+                    },
+                    "uuid": "99b1d0a2-8f05-49d9-96ec-96afd02f8fc1"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 334.58,
+                        "y": 181.7942
+                    },
+                    "uuid": "ffa24af4-0f55-4281-8228-f0519153f2ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 277.0
+                    },
+                    "uuid": "9a03a19e-52aa-4610-86ec-7121f240c306"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 277.0
+                    },
+                    "uuid": "d3438a08-9c13-40ed-b9cc-b394affd902d"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 384.5258
+                    },
+                    "uuid": "b08429df-ee1b-461e-bca3-37aa6253f981"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 384.5258
+                    },
+                    "uuid": "ec37a770-6408-489e-a784-308f0a0de9ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 349.5258
+                    },
+                    "uuid": "b3fcea71-a7bb-4d42-bcdf-7cce84da7fee"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 408.38,
+                        "y": 349.5258
+                    },
+                    "uuid": "d24eca1b-4819-4b2a-a241-d33febfee73d"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 216.3942
+                    },
+                    "uuid": "d2cf25ee-1193-470a-bdf1-ae5d95767a29"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 333.93,
+                        "y": 216.3942
+                    },
+                    "uuid": "fda1a228-7c01-4b26-b225-9d7504bb38bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Сквозные отверстия пересекаются",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 454.1258
+                    },
+                    "uuid": "dcbc0772-8edb-4439-a370-65192ce9c244"
+                },
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 409.03,
+                        "y": 454.1258
+                    },
+                    "uuid": "fa9d61e0-419c-49aa-bd4b-f4d3034cc1c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        }
+    ]
+}

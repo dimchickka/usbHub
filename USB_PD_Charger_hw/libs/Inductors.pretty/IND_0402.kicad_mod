@@ -1,0 +1,127 @@
+(footprint "IND_0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "IND_0402"
+		(at 0 -1.1 0)
+		(layer "F.SilkS")
+		(uuid "f7520f25-828a-4fb3-819e-f2f2c83da0a6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 1.15 0)
+		(layer "F.SilkS")
+		(uuid "1827f72c-0f9d-496f-b2e9-7b1d628fe6d1")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91a2c773-31fa-4ad1-b11a-16c214488241")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ca912bf-3a4b-4e76-a5e2-9e69079d3292")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -0.49)
+		(end 0.95 -0.49)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffa44e4e-dc90-478f-8829-4830bf14d8b2")
+	)
+	(fp_line
+		(start -0.95 0.49)
+		(end -0.95 -0.49)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26d193ac-71a5-4493-a940-6f6aff6ebcd1")
+	)
+	(fp_line
+		(start 0.95 -0.49)
+		(end 0.95 0.49)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd580e23-ed6d-47ff-b0d8-cfdfbba4449c")
+	)
+	(fp_line
+		(start 0.95 0.49)
+		(end -0.95 0.49)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a834b06b-de09-4e92-a306-ef45fbc0ac38")
+	)
+	(fp_rect
+		(start -1.15 -0.69)
+		(end 1.15 0.69)
+		(stroke (width 0.05) (type default))
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "30b867b0-2ae3-488a-a7c9-06b00c4c666c")
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9039c16b-68dc-4880-958d-d7afd81a0eee")
+	)
+	(pad "2" smd roundrect
+		(at 0.5 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "321fa5c6-304b-4de3-a78d-4bc1c4ddeede")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3D/KiCad/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

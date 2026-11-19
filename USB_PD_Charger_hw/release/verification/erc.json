@@ -1,0 +1,164 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-18T20:15:35+0300",
+    "kicad_version": "9.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/f994eeaa-e5ac-4c47-8e80-16fccabb919b",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_1/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/f994eeaa-e5ac-4c47-8e80-16fccabb919b/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_1/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/f994eeaa-e5ac-4c47-8e80-16fccabb919b/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/40952f16-ef72-4e3b-a20e-6fae18191257",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_2/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/40952f16-ef72-4e3b-a20e-6fae18191257/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_2/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/40952f16-ef72-4e3b-a20e-6fae18191257/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_3/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/884af5b5-0164-41ce-97e7-c51599449aac",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_3/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/884af5b5-0164-41ce-97e7-c51599449aac/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_3/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/884af5b5-0164-41ce-97e7-c51599449aac/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_4/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/d77e8ffa-cbf7-49a2-9f5e-376a93bdbc47",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_4/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/d77e8ffa-cbf7-49a2-9f5e-376a93bdbc47/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_4/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/d77e8ffa-cbf7-49a2-9f5e-376a93bdbc47/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_5/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/b62c699f-c1fe-4ca5-84b6-07477610f1aa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_5/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/b62c699f-c1fe-4ca5-84b6-07477610f1aa/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_5/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/b62c699f-c1fe-4ca5-84b6-07477610f1aa/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_6/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/c0ce49b6-4c2f-4530-a289-c989e55e6632",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_6/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/c0ce49b6-4c2f-4530-a289-c989e55e6632/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_6/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/c0ce49b6-4c2f-4530-a289-c989e55e6632/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_7/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/132450da-197c-4c91-85c0-13affce30771",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_7/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/132450da-197c-4c91-85c0-13affce30771/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_7/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/132450da-197c-4c91-85c0-13affce30771/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_8/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/de368094-511f-44fe-8c97-fcb9362e609c",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_8/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/de368094-511f-44fe-8c97-fcb9362e609c/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_8/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/de368094-511f-44fe-8c97-fcb9362e609c/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_9/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/e8092cd0-13cc-491a-97ea-4aef4d7ab9a7",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_9/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/e8092cd0-13cc-491a-97ea-4aef4d7ab9a7/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_9/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/e8092cd0-13cc-491a-97ea-4aef4d7ab9a7/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_10/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/b5ad1fb5-3a41-4831-a40e-1980b8427a85",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_10/SC8815_1/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/b5ad1fb5-3a41-4831-a40e-1980b8427a85/fbeeb8ab-7c54-4a93-868f-c5bd207f01fa",
+            "violations": []
+        },
+        {
+            "path": "/Dual_USB_C_ports_10/SC8815_2/",
+            "uuid_path": "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31/b5ad1fb5-3a41-4831-a40e-1980b8427a85/cd916a78-a74a-41e5-979c-bcb8f94de306",
+            "violations": []
+        }
+    ],
+    "source": "USB_PD_Charger.kicad_sch"
+}

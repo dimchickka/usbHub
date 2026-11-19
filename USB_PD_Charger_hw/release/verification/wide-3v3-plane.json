@@ -1,0 +1,72 @@
+{
+  "source_sha256": "39679474edb6633af0957eb524d401225a406066d3bf5db2ac6fb741c45e8590",
+  "applied_sha256": "253852e2c0829ba4a29214918964e637a5199da6b85769ce2b762ed7e72c949c",
+  "zone_uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124",
+  "same_existing_zone": true,
+  "side_regions_mm": [
+    [
+      [
+        280.0,
+        139.0
+      ],
+      [
+        318.0,
+        139.0
+      ],
+      [
+        318.0,
+        491.5
+      ],
+      [
+        280.0,
+        491.5
+      ]
+    ],
+    [
+      [
+        425.0,
+        139.0
+      ],
+      [
+        484.3,
+        139.0
+      ],
+      [
+        484.3,
+        498.108
+      ],
+      [
+        425.0,
+        498.108
+      ]
+    ]
+  ],
+  "central_24V_band_x_mm": [
+    318,
+    425
+  ],
+  "all_24V_load_pads_and_vias_remain_in_central_band": true,
+  "existing_3V3_plane_area_fully_preserved": true,
+  "all_other_zone_outlines_unchanged": true,
+  "tracks_vias_placements_unchanged": true,
+  "original_3V3_outline_area_mm2": 11816.72377791447,
+  "new_3V3_outline_area_mm2": 40727.50927860652,
+  "refilled_after_reloading_expanded_geometry": true,
+  "remove_unconnected_24V_islands_in_zones": [
+    "0f8ea63c-e4b6-4830-be34-0ac99290023e",
+    "d9363d59-e7d3-4f32-bd1b-7d9e1dd1cfa2"
+  ],
+  "left_24V_feed_reserved_x_mm": [
+    258.7,
+    280
+  ],
+  "needs_fresh_refill": false,
+  "wide_regions_verified_filled": true,
+  "final_drc_violations": 0,
+  "final_unconnected": 0,
+  "comparison_image": "wide-3v3-comparison.png",
+  "bottom_24V_feed_reserved_y_mm": [
+    491.5,
+    498.108
+  ]
+}

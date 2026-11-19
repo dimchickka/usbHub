@@ -494,7 +494,7 @@
 		(uuid "70850990-ef27-4359-8a5a-0e0f3ccf9208")
 	)
 	(embedded_fonts no)
-	(model "STM32G071CBT6.stp"
+	(model "${KIPRJMOD}/libs/3D/STM32G071CBT6.stp"
 		(offset
 			(xyz 0 0 0)
 		)

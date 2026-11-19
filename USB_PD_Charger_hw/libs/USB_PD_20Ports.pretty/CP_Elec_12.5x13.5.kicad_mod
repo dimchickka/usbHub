@@ -197,7 +197,7 @@
 		(uuid "3ff664f3-79a7-42bb-8b18-57db92691b3b")
 	)
 	(embedded_fonts no)
-	(model "VEJ-102M1CTR-1313.stp"
+	(model "${KIPRJMOD}/libs/3D/VEJ-102M1CTR-1313.stp"
 		(offset
 			(xyz 0 0 0)
 		)

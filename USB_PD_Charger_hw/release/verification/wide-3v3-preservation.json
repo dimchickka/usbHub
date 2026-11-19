@@ -1,0 +1,27 @@
+{
+  "main_sha256": "253852e2c0829ba4a29214918964e637a5199da6b85769ce2b762ed7e72c949c",
+  "all_tracks_vias_and_placements_unchanged": true,
+  "only_3v3_zone_outline_changed": true,
+  "In1_and_In2_GND_reference_unchanged": true,
+  "original_3v3_area_preserved": true,
+  "all_nets_connected": true,
+  "wide_3v3_probe_points_mm": [
+    [
+      443,
+      460.3
+    ],
+    [
+      445,
+      435
+    ],
+    [
+      300,
+      450
+    ],
+    [
+      295,
+      475
+    ]
+  ],
+  "sdram_spread_mm": 0.7269890965089019
+}

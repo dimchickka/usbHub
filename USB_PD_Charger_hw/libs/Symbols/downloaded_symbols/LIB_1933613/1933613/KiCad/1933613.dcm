@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 1933613
-D MKDS 5/ 2-6,35 BK Z1L - Printed circuit board terminal, nominal current: 32 A, rated voltage (III/2): 630 V, nominal cross section: 4 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: MKDS 5, pitch: 6.35 mm, connection method: Screw connection with tension sleeve, screw head form: Z1L Slotted Pozidriv, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: black, Pin layout: Linear pinning, Solder pin [P]: 5.1 mm, number of solder p
-K
-F https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-5-2-635-bk-z1l-1933613?type=pdf
-$ENDCMP
-#
-#End Doc Library

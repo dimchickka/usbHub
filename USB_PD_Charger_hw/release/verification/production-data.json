@@ -1,0 +1,44 @@
+{
+  "source_pcb_sha256": "253852e2c0829ba4a29214918964e637a5199da6b85769ce2b762ed7e72c949c",
+  "dimensions_mm": [
+    225.65,
+    425.658
+  ],
+  "thickness_mm": 1.5,
+  "layers": 4,
+  "copper_um": [
+    35,
+    35,
+    35,
+    35
+  ],
+  "minimum_via_drill_mm": 0.3,
+  "minimum_track_width_mm": 0.15,
+  "sc8815_count": 20,
+  "stm32g071_count": 10,
+  "generic_bom_entries": [],
+  "pin_type_counts": {
+    "passive": 3699,
+    "input": 334,
+    "": 132,
+    "passive+no_connect": 356,
+    "input+no_connect": 132,
+    "power_in": 3
+  },
+  "selected_fuses": {
+    "references": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "manufacturer": "Bel Fuse",
+    "mpn": "0680H9150-05",
+    "current_A": 15,
+    "voltage_VDC": 125,
+    "characteristic": "slow blow",
+    "case": "2410",
+    "supplier_url": "https://www.chipdip.ru/product/0680h9150-05-surface-mount-fuses-2410-smd-aec-q200-bel-fuse-8018734594"
+  }
+}

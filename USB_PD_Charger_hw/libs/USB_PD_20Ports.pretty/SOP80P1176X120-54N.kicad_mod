@@ -529,7 +529,7 @@
 		(uuid "e666633e-e9e2-46ae-972c-b842e7a00910")
 	)
 	(embedded_fonts no)
-	(model "IS42S16400J-7TLI-TR.stp"
+	(model "${KIPRJMOD}/libs/3D/IS42S16400J-7TLI-TR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

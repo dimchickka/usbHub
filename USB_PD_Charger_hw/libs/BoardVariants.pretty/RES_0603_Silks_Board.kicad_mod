@@ -1,0 +1,267 @@
+(footprint "RES_0603_Silks_Board"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1 90)
+		(layer "F.SilkS")
+		(uuid "514d892f-feec-429a-b2ca-c0c61398efe7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(property "Value" "RES_0603_Silks_Board"
+		(at 0.05 1.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33eb6a55-f4ab-4e64-b5b2-880f644421e2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5395248-8ff3-4084-b586-8b5bcb4fe84c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "168b0e5f-8262-4195-8998-1f62a58e0666")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "0.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7314c5bd-358d-401c-a267-0e534c4a16d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SolderPoints" "2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84fd5e30-d3e9-49a2-b41d-8db466b0c5b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PN" "-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf1a0ba6-ba5f-4478-be74-ff495a7bbb79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tolerance" "1%"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75568132-3d27-4502-b01d-484b107ea107")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "Resistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3196f3f2-aef3-4f87-b249-9524a75c397e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "URL" "https://www.electronshik.ru/item/YAG/RC0603FR-0710KL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74f0d69b-ca1c-4977-a6a2-9964e5929401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "URL_JLCPCB" "https://jlcpcb.com/partdetail/Fojan-FRC0603F1002TS/C2906982"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37829f71-f92c-4f4e-8259-6d702ea758ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PN_JLCPCB" "FRC0603F1002TS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91eeb0e7-fc79-4f13-84d2-f17956f3579e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.55 0.75)
+		(end -1.55 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63feee2a-ad38-44d3-9933-607e3e178bf6")
+	)
+	(fp_line
+		(start -1.35 -0.6)
+		(end 1.35 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c08075db-23eb-4ab2-a3e4-86d21d20a8c9")
+	)
+	(fp_line
+		(start -1.35 0.6)
+		(end -1.35 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4432697a-74b6-40bb-b66d-df3650b42a80")
+	)
+	(fp_line
+		(start 1.35 -0.6)
+		(end 1.35 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5eea7e7-785e-4540-b2e3-a25a77093f9e")
+	)
+	(fp_line
+		(start 1.35 0.6)
+		(end -1.35 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e050314-9cae-4d23-9754-f615aedefee0")
+	)
+	(fp_line
+		(start -1.55 -0.75)
+		(end 1.55 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f15487a-ecb8-4cd3-901d-464ad878b60c")
+	)
+	(fp_line
+		(start 1.55 -0.75)
+		(end 1.55 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee3e1cc9-b1f7-4bcc-8a26-73132c28113c")
+	)
+	(fp_line
+		(start 1.55 0.75)
+		(end -1.55 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86bbe3cb-8386-4357-a9cf-9e4ffeb7b67b")
+	)
+	(pad "1" smd roundrect
+		(at -0.8 0)
+		(size 0.95 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 0)
+		(uuid "86dfeb66-7640-44e9-993b-dd40761376ad")
+	)
+	(pad "2" smd roundrect
+		(at 0.8 0)
+		(size 0.95 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 0)
+		(uuid "25a5f935-1dab-45b7-ada7-88bac748b75b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3D/KiCad/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

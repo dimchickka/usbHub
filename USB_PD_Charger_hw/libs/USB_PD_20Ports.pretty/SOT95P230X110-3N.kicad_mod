@@ -223,7 +223,7 @@
 		(uuid "9218f44f-ae02-4ab1-8d19-b4d635f3d687")
 	)
 	(embedded_fonts no)
-	(model "PESD5V0S2BT-Q_GR.stp"
+	(model "${KIPRJMOD}/libs/3D/PESD5V0S2BT-Q_GR.stp"
 		(offset
 			(xyz -2.109999863 -1.330000023 -1.159999949)
 		)

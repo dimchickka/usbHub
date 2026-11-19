@@ -1,0 +1,30 @@
+{
+  "pcb_files_in_workspace": 1,
+  "main_pcb_sha256": "253852e2c0829ba4a29214918964e637a5199da6b85769ce2b762ed7e72c949c",
+  "drc_violations": 0,
+  "erc_violations": 0,
+  "schematic_parity": 0,
+  "unconnected": 0,
+  "missing_3d_models": 0,
+  "files_at_least_100MB": [],
+  "fabrication_zip_integrity": "passed",
+  "erc_schematic_sha256": "7b42f8ccb800edbaba98c856a61b45e3c9974919648ca43c6db849395219a3bd",
+  "erc_note": "All schematic sources, project and rules unchanged from previous clean ERC.",
+  "in2_3v3_cutout_filled": true,
+  "track_geometry_unchanged_by_this_change": true,
+  "existing_track_geometry_preserved": true,
+  "added_GND_stitches": 4,
+  "wide_void_audit": {
+    "remaining_regions": 0,
+    "checked_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "free_radius_mm": 0.65,
+    "minimum_eroded_area_mm2": 0.5
+  },
+  "wide_3v3_plane": true,
+  "all_tracks_vias_and_placements_unchanged": true
+}

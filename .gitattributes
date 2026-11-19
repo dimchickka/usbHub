@@ -1,0 +1,17 @@
+# Preserve checked CAD and manufacturing bytes across Windows/Linux clones.
+*.kicad_pcb -text
+*.kicad_sch -text
+*.kicad_pro -text
+*.kicad_dru -text
+*.kicad_mod -text
+*.kicad_sym -text
+*.kicad_wks -text
+fp-lib-table -text
+sym-lib-table -text
+USB_PD_Charger_hw/release/fabrication/** -text
+USB_PD_Charger_hw/release/assembly/** -text
+*.zip -text
+*.step -text
+*.STEP -text
+*.stp -text
+*.pdf -text

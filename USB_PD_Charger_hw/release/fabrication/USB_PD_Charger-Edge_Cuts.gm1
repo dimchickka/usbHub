@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6*%
+%TF.CreationDate,2026-11-19T07:38:36+03:00*%
+%TF.ProjectId,USB_PD_Charger,5553425f-5044-45f4-9368-61726765722e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.6) date 2026-11-19 07:38:36*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X258700000Y-72500000D02*
+X484300000Y-72500000D01*
+X484300000Y-498108000D01*
+X258700000Y-498108000D01*
+X258700000Y-72500000D01*
+M02*

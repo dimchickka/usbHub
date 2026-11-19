@@ -64,8 +64,8 @@
 		(uuid "4a040c62-86de-49bd-9529-d3047a68625b")
 	)
 	(fp_line
-		(start -3.78 -1.65)
-		(end 3.78 -1.65)
+		(start -3.78 -1.85)
+		(end 3.78 -1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -74,8 +74,8 @@
 		(uuid "253a62d8-db60-4232-afea-142bf94221dc")
 	)
 	(fp_line
-		(start -3.78 1.65)
-		(end -3.78 -1.65)
+		(start -3.78 1.85)
+		(end -3.78 -1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "ee2c4efb-551e-4e85-8a77-400137448922")
 	)
 	(fp_line
-		(start 3.78 -1.65)
-		(end 3.78 1.65)
+		(start 3.78 -1.85)
+		(end 3.78 1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -94,8 +94,8 @@
 		(uuid "27136aae-9fd5-49df-a602-04ba0a657e6d")
 	)
 	(fp_line
-		(start 3.78 1.65)
-		(end -3.78 1.65)
+		(start 3.78 1.85)
+		(end -3.78 1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -156,18 +156,18 @@
 	)
 	(pad "1" smd rect
 		(at -2.455 0)
-		(size 2.15 2.8)
+		(size 1.96 3.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8a82606d-2b60-48e5-9557-5ba2589db1a7")
 	)
 	(pad "2" smd rect
 		(at 2.455 0)
-		(size 2.15 2.8)
+		(size 1.96 3.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "167c4cee-8ba6-4429-a1e2-33898c97976e")
 	)
 	(embedded_fonts no)
-	(model "0680H9150-05.stp"
+	(model "${KIPRJMOD}/libs/3D/0680H9150-05.stp"
 		(offset
 			(xyz 0 0 0)
 		)

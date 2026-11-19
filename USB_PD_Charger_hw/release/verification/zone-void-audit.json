@@ -1,0 +1,22 @@
+{
+  "source_sha256": "253852e2c0829ba4a29214918964e637a5199da6b85769ce2b762ed7e72c949c",
+  "minimum_free_radius_mm": 0.65,
+  "layers": [
+    {
+      "layer": "F.Cu",
+      "wide_voids": []
+    },
+    {
+      "layer": "In1.Cu",
+      "wide_voids": []
+    },
+    {
+      "layer": "In2.Cu",
+      "wide_voids": []
+    },
+    {
+      "layer": "B.Cu",
+      "wide_voids": []
+    }
+  ]
+}

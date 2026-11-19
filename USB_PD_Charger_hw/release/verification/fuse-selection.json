@@ -1,0 +1,160 @@
+{
+  "selected": {
+    "references": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "manufacturer": "Bel Fuse",
+    "mpn": "0680H9150-05",
+    "current_A": 15,
+    "voltage_VDC": 125,
+    "characteristic": "slow blow",
+    "case": "2410",
+    "supplier_url": "https://www.chipdip.ru/product/0680h9150-05-surface-mount-fuses-2410-smd-aec-q200-bel-fuse-8018734594"
+  },
+  "price_RUB_each_checked_2026_11_18": 240,
+  "supplier_lead_time_weeks": [
+    10,
+    11
+  ],
+  "input_topology": "Five fused input connectors XL4-XL8 feed the same +24v bus; these are not five isolated groups of USB ports.",
+  "rated_output_W": 1000,
+  "assumed_efficiency_range": [
+    0.9,
+    0.95
+  ],
+  "total_input_current_A_range": [
+    43.85964912280702,
+    46.29629629629629
+  ],
+  "balanced_current_per_input_A_range": [
+    8.771929824561404,
+    9.25925925925926
+  ],
+  "copper_and_placement_changed": "Only ten fuse land sizes and five courtyards changed; tracks, vias and placement preserved.",
+  "before_net_signature": "2ce4af1a2c973d3b96578b7ac17de4941e994ebbe043b764082c381007448ed9",
+  "pcb_sha256": "253852e2c0829ba4a29214918964e637a5199da6b85769ce2b762ed7e72c949c",
+  "schematic_sha256": "7b42f8ccb800edbaba98c856a61b45e3c9974919648ca43c6db849395219a3bd",
+  "footprint_unchanged": "Library identifier retained; lands corrected to Bel recommendation 1.96 x 3.15mm, 4.91mm pitch.",
+  "qualification_required": [
+    "Measure current sharing through all five input leads at full load; equal current is not guaranteed by the schematic.",
+    "Confirm temperature derating and actual fuse/PCB heating. Bel high-current qualification uses 3 oz copper, 10mm traces; this PCB has 35um copper and planes.",
+    "Coordinate clearing with actual PSU short-circuit response; five parallel fuses do not constitute a guaranteed 75A main fuse."
+  ],
+  "datasheet": "https://www.belfuse.com/media/datasheets/products/circuit-protection/ds-CP-0680H-series.pdf",
+  "approval_status": "DESIGN_SELECTED_WITH_REQUIREMENTS; prototype qualification pending",
+  "psu_model": null,
+  "user_confirmed_psu_not_selected": true,
+  "fault_example": {
+    "assumed_psu_current_limit_A": 50,
+    "assumed_equal_parallel_inputs": 5,
+    "current_per_fuse_A": 10,
+    "consequence": "Neither slow nor fast 15A fuses are guaranteed to clear this shared-bus fault."
+  },
+  "fast_candidate_for_further_comparison": {
+    "manufacturer": "Bel Fuse",
+    "mpn": "0679L9150-05",
+    "current_A": 15,
+    "voltage_VDC": 125,
+    "response": "fast acting",
+    "datasheet": "https://www.belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0679l-series.pdf",
+    "approval_status": "NOT SELECTED; check inrush, temperature and fault coordination"
+  },
+  "recommended_lands_applied": {
+    "pad_size_mm": [
+      1.96,
+      3.15
+    ],
+    "pad_centres_x_mm": [
+      -2.455,
+      2.455
+    ],
+    "courtyard_y_mm": [
+      -1.85,
+      1.85
+    ],
+    "changed_pads": [
+      [
+        "F4",
+        "1"
+      ],
+      [
+        "F4",
+        "2"
+      ],
+      [
+        "F3",
+        "1"
+      ],
+      [
+        "F3",
+        "2"
+      ],
+      [
+        "F1",
+        "1"
+      ],
+      [
+        "F1",
+        "2"
+      ],
+      [
+        "F2",
+        "1"
+      ],
+      [
+        "F2",
+        "2"
+      ],
+      [
+        "F5",
+        "1"
+      ],
+      [
+        "F5",
+        "2"
+      ]
+    ],
+    "tracks_and_placement_unchanged": true
+  },
+  "user_confirmed": {
+    "single_24V_PSU_all_five_inputs": true,
+    "may_specify_PSU_requirements": true,
+    "may_select_wires": true
+  },
+  "integration_requirements": {
+    "input_voltage_V": [
+      22.8,
+      25.2
+    ],
+    "PSU_continuous_current_A_min": 60,
+    "PSU_fault_current_A_max": 85.1,
+    "PSU_fault_shutdown_s_max": 5,
+    "PSU_fault_recovery": "latched off, deliberate restart",
+    "PSU_example_not_purchase_selection": "Mean Well RSP-1500-24, 24V 63A",
+    "wire": "5 equal red/black pairs, flexible copper H07V2-K 90C, 4mm2; <=0.5m per conductor; ferrules",
+    "fuse_ambient_C_max": 50,
+    "forced_air_required": true,
+    "normal_current_any_input_A_max": 10.5,
+    "connect_all_five_with_PSU_off": true,
+    "missing_input": "reduce output power; no 1kW operation",
+    "startup": "SC8815 outputs disabled during input charging; verify rise time >=20ms and actual inrush"
+  },
+  "calculation": {
+    "output_W": 1000,
+    "assumed_min_converter_efficiency": 0.9,
+    "logic_allowance_W": 10,
+    "worst_input_current_A": 49.17153996101364,
+    "balanced_current_A": 9.834307992202728,
+    "engineering_utilization_factor": 0.75,
+    "conservative_50C_derating_factor": 0.95,
+    "design_fuse_continuous_current_A": 10.6875,
+    "input_capacitance_nominal_uF": 3127,
+    "input_capacitance_engineering_allowance": 1.2,
+    "charge_energy_J_at_25_2V": 1.191462048
+  },
+  "prototype_tests_completed": false
+}

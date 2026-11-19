@@ -1,0 +1,153 @@
+(footprint "SOT89_5_Board"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3 -3 90)
+		(layer "F.SilkS")
+		(uuid "812f80cf-bb04-4b19-beef-b45f69d34f40")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT89_5_Board"
+		(at -0.2 -2.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e625105c-4a38-4e9e-be4f-6e1a139abaed")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e879d4ab-32d5-4fe1-af91-d33ed631d05f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Boost LED: 35v 20mA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "034abb64-bb3c-4434-abf0-1f7419b9d109")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 1.2)
+		(end -2.2 -1.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "430e589b-fd74-4bae-9297-be73e77f0474")
+	)
+	(fp_line
+		(start 2.2 -1.2)
+		(end 2.2 1.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b7c3909-96b8-44f8-a556-1cc8db4f7dab")
+	)
+	(fp_rect
+		(start -2.4 -2.45)
+		(end 2.4 2.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "06331f53-fab8-4463-b050-308143a13522")
+	)
+	(fp_line
+		(start -2.2 -1.2)
+		(end 2.2 -1.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a632c2bb-b815-4fb7-86b1-aca125f631c2")
+	)
+	(fp_line
+		(start 2.2 1.2)
+		(end -2.2 1.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eca23831-67b8-4968-bf89-a4f23e32af06")
+	)
+	(pad "1" smd rect
+		(at -1.5 1.65)
+		(size 0.68 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7db406ee-af25-4506-83a9-92f0b77befc9")
+	)
+	(pad "2" smd rect
+		(at 0 -0.475)
+		(size 1.9 3.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3dd6564b-0820-4a75-8858-cf1a35384293")
+	)
+	(pad "2" smd rect
+		(at 0 1.65)
+		(size 0.68 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9fceab4f-70f4-4022-8aa4-50d45c70c708")
+	)
+	(pad "3" smd rect
+		(at 1.5 1.65)
+		(size 0.68 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "058a3938-51f1-4b40-b957-a4cf3e2b75fe")
+	)
+	(pad "4" smd rect
+		(at 1.5 -1.65)
+		(size 0.68 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eb3b78b6-3f8a-4f28-9a54-5d2a4d80a43c")
+	)
+	(pad "5" smd rect
+		(at -1.5 -1.65)
+		(size 0.68 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5196a38d-b564-4b36-b1d3-cf53eebc5375")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3D/KiCad/Package_TO_SOT_SMD.3dshapes/SOT-89-3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

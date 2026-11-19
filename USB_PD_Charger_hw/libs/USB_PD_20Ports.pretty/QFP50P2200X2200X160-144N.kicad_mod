@@ -1070,7 +1070,7 @@
 		(uuid "8fcedf8b-f38f-456c-9f68-f1374089645e")
 	)
 	(embedded_fonts no)
-	(model "GD32F470ZGT6.stp"
+	(model "${KIPRJMOD}/libs/3D/GD32F470ZGT6.stp"
 		(offset
 			(xyz 0 0 0)
 		)

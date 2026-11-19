@@ -1,0 +1,33 @@
+{
+  "models": [
+    "${KIPRJMOD}/libs/3D/0680H9150-05.stp",
+    "${KIPRJMOD}/libs/3D/1933613.stp",
+    "${KIPRJMOD}/libs/3D/GD32F470ZGT6.stp",
+    "${KIPRJMOD}/libs/3D/IS42S16400J-7TLI-TR.stp",
+    "${KIPRJMOD}/libs/3D/KiCad/Capacitor_SMD.3dshapes/CP_Elec_10x10.5.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Capacitor_SMD.3dshapes/CP_Elec_6.3x5.8.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3216-18_Kemet-A.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Connector_FFC-FPC.3dshapes/Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x07_P2.54mm_Vertical.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Diode_SMD.3dshapes/D_SMA.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Diode_SMD.3dshapes/D_SMC.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Inductor_SMD.3dshapes/L_1210_3225Metric.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Inductor_SMD.3dshapes/L_Sunlord_MWSA1265S.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Package_TO_SOT_SMD.3dshapes/SOT-89-3.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Package_TO_SOT_SMD.3dshapes/TO-252-3_TabPin2.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+    "${KIPRJMOD}/libs/3D/KiCad/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+    "${KIPRJMOD}/libs/3D/PESD5V0S2BT-Q_GR.stp",
+    "${KIPRJMOD}/libs/3D/SC8815.stp",
+    "${KIPRJMOD}/libs/3D/STM32G071CBT6.stp",
+    "${KIPRJMOD}/libs/3D/USBC_10PF-074.STEP"
+  ],
+  "missing": [],
+  "external": []
+}

@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "MCU SDRAM matched length"
+  (condition "A.NetName == '/SDRAM_*'")
+  (constraint length (min 93mm) (opt 93.5mm) (max 94mm))
+  (constraint skew (max 1mm)))

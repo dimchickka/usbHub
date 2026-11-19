@@ -1,0 +1,2242 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-18T21:04:47+0300",
+    "kicad_version": "9.0.6",
+    "schematic_parity": [],
+    "source": "USB_PD_Charger.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Отсутствует соединение между элементами",
+            "items": [
+                {
+                    "description": "Дорожка [/Dual_USB_C_ports_6/STM_SCL2] на B.Cu, длина 5,5374 mm",
+                    "pos": {
+                        "x": 426.5,
+                        "y": 145.67
+                    },
+                    "uuid": "1c4c932c-bda4-4166-a265-ede60822b11c"
+                },
+                {
+                    "description": "Дорожка [/Dual_USB_C_ports_6/STM_SCL2] на F.Cu, длина 1,2728 mm",
+                    "pos": {
+                        "x": 421.76,
+                        "y": 150.82
+                    },
+                    "uuid": "6d73ff98-36b3-4af9-a080-8d2f4c6848ea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Отсутствует соединение между элементами",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(DD33-COMP)] на B.Cu, длина 2,5500 mm",
+                    "pos": {
+                        "x": 417.86,
+                        "y": 150.32
+                    },
+                    "uuid": "d45bdbed-0320-494c-b301-0a8f8cd3c2ed"
+                },
+                {
+                    "description": "Дорожка [Net-(DD33-COMP)] на F.Cu, длина 2,8284 mm",
+                    "pos": {
+                        "x": 420.06,
+                        "y": 152.52
+                    },
+                    "uuid": "5a277a62-4e0a-4de7-95ca-68c80f4e58c0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Нарушение зазора (netclass 'SENSE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(DD32-SNS2P)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 417.662866,
+                        "y": 187.57
+                    },
+                    "uuid": "f0a1ce60-a49e-48b9-bd0b-e8084cbc2f08"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_3V3' зазор 0,2000 mm; текущий 0,1418 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [+3v3] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 431.025323,
+                        "y": 182.029865
+                    },
+                    "uuid": "484584e9-4757-44e8-b09f-e8222f3ecfe5"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B4] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.57,
+                        "y": 99.99
+                    },
+                    "uuid": "6aede8c1-b5d6-49d5-8dc8-b1bcc5862a5a"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM8_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.912588,
+                        "y": 174.970404
+                    },
+                    "uuid": "11161b13-89dc-4c56-ba58-ba3bb1edbb38"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,1211 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM2_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 378.66,
+                        "y": 144.444442
+                    },
+                    "uuid": "429434dd-bcfe-431b-9abf-62eb39d5a726"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0205 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_DISP] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 432.25,
+                        "y": 96.4
+                    },
+                    "uuid": "db07921d-a245-4cf3-a116-e89e34883fee"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM_MOSI] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 374.85,
+                        "y": 114.239
+                    },
+                    "uuid": "16a1bbd5-a015-4d81-a66b-0f259d75e418"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,1568 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [GND] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 423.725219,
+                        "y": 145.758917
+                    },
+                    "uuid": "af2f69a6-39af-4cf3-88b7-960169373bba"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0578 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(DD32-SNS2P)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 417.662866,
+                        "y": 187.57
+                    },
+                    "uuid": "f0a1ce60-a49e-48b9-bd0b-e8084cbc2f08"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B4] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.57,
+                        "y": 99.99
+                    },
+                    "uuid": "6aede8c1-b5d6-49d5-8dc8-b1bcc5862a5a"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM8_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.912588,
+                        "y": 174.970404
+                    },
+                    "uuid": "11161b13-89dc-4c56-ba58-ba3bb1edbb38"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_24V' зазор 0,2000 mm; текущий 0,1417 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [+24v] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 417.457256,
+                        "y": 188.497485
+                    },
+                    "uuid": "28634490-2898-4c42-8451-16e8c087dae6"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,1711 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM2_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 378.66,
+                        "y": 144.444442
+                    },
+                    "uuid": "429434dd-bcfe-431b-9abf-62eb39d5a726"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B4] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.57,
+                        "y": 99.99
+                    },
+                    "uuid": "6aede8c1-b5d6-49d5-8dc8-b1bcc5862a5a"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1705 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_DISP] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 432.25,
+                        "y": 96.4
+                    },
+                    "uuid": "db07921d-a245-4cf3-a116-e89e34883fee"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0795 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM_MOSI] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 374.85,
+                        "y": 114.239
+                    },
+                    "uuid": "16a1bbd5-a015-4d81-a66b-0f259d75e418"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B4] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.57,
+                        "y": 99.99
+                    },
+                    "uuid": "6aede8c1-b5d6-49d5-8dc8-b1bcc5862a5a"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0205 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_DISP] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 432.25,
+                        "y": 96.4
+                    },
+                    "uuid": "db07921d-a245-4cf3-a116-e89e34883fee"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM_MOSI] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 374.85,
+                        "y": 114.239
+                    },
+                    "uuid": "16a1bbd5-a015-4d81-a66b-0f259d75e418"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1705 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_DISP] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 432.25,
+                        "y": 96.4
+                    },
+                    "uuid": "db07921d-a245-4cf3-a116-e89e34883fee"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0795 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM_MOSI] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 374.85,
+                        "y": 114.239
+                    },
+                    "uuid": "16a1bbd5-a015-4d81-a66b-0f259d75e418"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(DD32-SNS2P)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 417.662866,
+                        "y": 187.57
+                    },
+                    "uuid": "f0a1ce60-a49e-48b9-bd0b-e8084cbc2f08"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B6] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.334429,
+                        "y": 98.375571
+                    },
+                    "uuid": "9fbf2e00-9ff5-416a-a0c8-984054e38d13"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM8_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.912588,
+                        "y": 174.970404
+                    },
+                    "uuid": "11161b13-89dc-4c56-ba58-ba3bb1edbb38"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,1505 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SCL1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 430.489041,
+                        "y": 181.245705
+                    },
+                    "uuid": "80fcdce5-b148-4149-bad1-56a34b85ba3f"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B6] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.334429,
+                        "y": 98.375571
+                    },
+                    "uuid": "9fbf2e00-9ff5-416a-a0c8-984054e38d13"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_3V3' зазор 0,2000 mm; текущий 0,1505 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SCL1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 430.489041,
+                        "y": 181.245705
+                    },
+                    "uuid": "80fcdce5-b148-4149-bad1-56a34b85ba3f"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0681 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(DD32-SNS2P)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 417.662866,
+                        "y": 187.57
+                    },
+                    "uuid": "f0a1ce60-a49e-48b9-bd0b-e8084cbc2f08"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B6] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.334429,
+                        "y": 98.375571
+                    },
+                    "uuid": "9fbf2e00-9ff5-416a-a0c8-984054e38d13"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B6] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.334429,
+                        "y": 98.375571
+                    },
+                    "uuid": "9fbf2e00-9ff5-416a-a0c8-984054e38d13"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0001 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM8_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.912588,
+                        "y": 174.970404
+                    },
+                    "uuid": "11161b13-89dc-4c56-ba58-ba3bb1edbb38"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'SENSE' зазор 0,2000 mm; текущий 0,1904 mm)",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(DD33-ACIN)] на F.Cu, длина 0,4950 mm",
+                    "pos": {
+                        "x": 423.11,
+                        "y": 151.395
+                    },
+                    "uuid": "82abbfec-699a-42be-b7c1-de97d9a32361"
+                },
+                {
+                    "description": "Конт. пл. 5 [unconnected-(DD33-INDET-Pad5)] от DD33 на F.Cu",
+                    "pos": {
+                        "x": 423.387437,
+                        "y": 151.66972
+                    },
+                    "uuid": "946f9fea-4e29-41f6-93b3-7f9574e04589"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'SENSE' зазор 0,2000 mm; текущий 0,1919 mm)",
+            "items": [
+                {
+                    "description": "Конт. пл. 5 [unconnected-(DD33-INDET-Pad5)] от DD33 на F.Cu",
+                    "pos": {
+                        "x": 423.387437,
+                        "y": 151.66972
+                    },
+                    "uuid": "946f9fea-4e29-41f6-93b3-7f9574e04589"
+                },
+                {
+                    "description": "Дорожка [Net-(DD33-ACIN)] на F.Cu, длина 0,3000 mm",
+                    "pos": {
+                        "x": 423.46,
+                        "y": 151.045
+                    },
+                    "uuid": "cea26013-0abd-4bc8-9837-86e532760f39"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B7] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.22242,
+                        "y": 97.532981
+                    },
+                    "uuid": "da879749-8f4a-4f8b-b55a-53e6024e3fb6"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,2255 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SCL1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 430.489041,
+                        "y": 181.245705
+                    },
+                    "uuid": "80fcdce5-b148-4149-bad1-56a34b85ba3f"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(DD33-COMP)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 418.23967,
+                        "y": 150.340329
+                    },
+                    "uuid": "bc2015bf-6eac-4015-9cf6-a701139f9a1e"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM8_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.055174,
+                        "y": 175.880759
+                    },
+                    "uuid": "e36212d8-c762-4563-bd7c-ccc19ef3700a"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B7] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.22242,
+                        "y": 97.532981
+                    },
+                    "uuid": "da879749-8f4a-4f8b-b55a-53e6024e3fb6"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 453.75293,
+                        "y": 182.704898
+                    },
+                    "uuid": "74470afd-df97-4783-964a-a41047d22d67"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1318 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(DD33-COMP)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 418.23967,
+                        "y": 150.340329
+                    },
+                    "uuid": "bc2015bf-6eac-4015-9cf6-a701139f9a1e"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B7] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.22242,
+                        "y": 97.532981
+                    },
+                    "uuid": "da879749-8f4a-4f8b-b55a-53e6024e3fb6"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/LTDC_B7] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 433.22242,
+                        "y": 97.532981
+                    },
+                    "uuid": "da879749-8f4a-4f8b-b55a-53e6024e3fb6"
+                },
+                {
+                    "description": "Зона 'GND reference under GD32 SDRAM and upper signal corridor' [GND] на In2.Cu, приоритет 100",
+                    "pos": {
+                        "x": 446.09,
+                        "y": 81.34
+                    },
+                    "uuid": "404cc076-671f-4e00-b1f4-a3b505b84f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1333 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM8_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.055174,
+                        "y": 175.880759
+                    },
+                    "uuid": "e36212d8-c762-4563-bd7c-ccc19ef3700a"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 453.75293,
+                        "y": 182.704898
+                    },
+                    "uuid": "74470afd-df97-4783-964a-a41047d22d67"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_3V3' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 453.75293,
+                        "y": 182.704898
+                    },
+                    "uuid": "74470afd-df97-4783-964a-a41047d22d67"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,0318 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(DD33-COMP)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 418.23967,
+                        "y": 150.340329
+                    },
+                    "uuid": "bc2015bf-6eac-4015-9cf6-a701139f9a1e"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 453.75293,
+                        "y": 182.704898
+                    },
+                    "uuid": "74470afd-df97-4783-964a-a41047d22d67"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,0333 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM8_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.055174,
+                        "y": 175.880759
+                    },
+                    "uuid": "e36212d8-c762-4563-bd7c-ccc19ef3700a"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,2049 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 453.75293,
+                        "y": 182.704898
+                    },
+                    "uuid": "74470afd-df97-4783-964a-a41047d22d67"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1818 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [Net-(DD33-COMP)] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 418.23967,
+                        "y": 150.340329
+                    },
+                    "uuid": "bc2015bf-6eac-4015-9cf6-a701139f9a1e"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1833 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/STM8_CS] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.055174,
+                        "y": 175.880759
+                    },
+                    "uuid": "e36212d8-c762-4563-bd7c-ccc19ef3700a"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_NCE1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 464.616942,
+                        "y": 180.986942
+                    },
+                    "uuid": "527ca290-9821-4b88-bd7f-18ca9d43320c"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0685 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_RX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 450.44,
+                        "y": 176.382
+                    },
+                    "uuid": "0ff829f6-5051-407e-8ff3-dff8652d6d79"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0861 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_NCE1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 464.616942,
+                        "y": 180.986942
+                    },
+                    "uuid": "527ca290-9821-4b88-bd7f-18ca9d43320c"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,2185 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_RX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 450.44,
+                        "y": 176.382
+                    },
+                    "uuid": "0ff829f6-5051-407e-8ff3-dff8652d6d79"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_NCE1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 464.616942,
+                        "y": 180.986942
+                    },
+                    "uuid": "527ca290-9821-4b88-bd7f-18ca9d43320c"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,1375 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_RX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 450.44,
+                        "y": 176.382
+                    },
+                    "uuid": "0ff829f6-5051-407e-8ff3-dff8652d6d79"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1361 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_NCE1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 464.616942,
+                        "y": 180.986942
+                    },
+                    "uuid": "527ca290-9821-4b88-bd7f-18ca9d43320c"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0811 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_RX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.764513,
+                        "y": 177.049138
+                    },
+                    "uuid": "990b8768-9e5e-474d-bc12-0b571773c9ed"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_PSTOP1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 454.363133,
+                        "y": 182.123483
+                    },
+                    "uuid": "dc207941-d7f6-480c-b029-78db0a06ac15"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,2311 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_RX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.764513,
+                        "y": 177.049138
+                    },
+                    "uuid": "990b8768-9e5e-474d-bc12-0b571773c9ed"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_PSTOP1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 454.363133,
+                        "y": 182.123483
+                    },
+                    "uuid": "dc207941-d7f6-480c-b029-78db0a06ac15"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_3V3' зазор 0,2000 mm; текущий 0,0811 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_RX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.764513,
+                        "y": 177.049138
+                    },
+                    "uuid": "990b8768-9e5e-474d-bc12-0b571773c9ed"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,2311 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_RX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.764513,
+                        "y": 177.049138
+                    },
+                    "uuid": "990b8768-9e5e-474d-bc12-0b571773c9ed"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_3V3' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_PSTOP1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 454.363133,
+                        "y": 182.123483
+                    },
+                    "uuid": "dc207941-d7f6-480c-b029-78db0a06ac15"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_PSTOP1] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 454.363133,
+                        "y": 182.123483
+                    },
+                    "uuid": "dc207941-d7f6-480c-b029-78db0a06ac15"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,1062 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SDA2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 424.748532,
+                        "y": 145.449244
+                    },
+                    "uuid": "23e36ecd-a9d7-4790-a7eb-f947dd570b2c"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,2214 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_RX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 448.764513,
+                        "y": 177.049138
+                    },
+                    "uuid": "990b8768-9e5e-474d-bc12-0b571773c9ed"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_3V3' зазор 0,2000 mm; текущий 0,1062 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SDA2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 424.748532,
+                        "y": 145.449244
+                    },
+                    "uuid": "23e36ecd-a9d7-4790-a7eb-f947dd570b2c"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0662 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_TX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 457.95,
+                        "y": 177.927721
+                    },
+                    "uuid": "367d34ae-6e8c-4187-b7a3-83931af07048"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0104 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SDA2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 422.800558,
+                        "y": 148.485558
+                    },
+                    "uuid": "9ff45066-9acd-424f-97b4-0b6edcebf2bb"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,2162 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_TX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 457.95,
+                        "y": 177.927721
+                    },
+                    "uuid": "367d34ae-6e8c-4187-b7a3-83931af07048"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1604 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SDA2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 422.800558,
+                        "y": 148.485558
+                    },
+                    "uuid": "9ff45066-9acd-424f-97b4-0b6edcebf2bb"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_3V3' зазор 0,2000 mm; текущий 0,0662 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_TX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 457.95,
+                        "y": 177.927721
+                    },
+                    "uuid": "367d34ae-6e8c-4187-b7a3-83931af07048"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,2162 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_TX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 457.95,
+                        "y": 177.927721
+                    },
+                    "uuid": "367d34ae-6e8c-4187-b7a3-83931af07048"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,0604 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SDA2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 422.800558,
+                        "y": 148.485558
+                    },
+                    "uuid": "9ff45066-9acd-424f-97b4-0b6edcebf2bb"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_TX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 456.550608,
+                        "y": 179.798632
+                    },
+                    "uuid": "c58a8805-7397-4b2d-a412-b81a7f01132d"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_TX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 456.550608,
+                        "y": 179.798632
+                    },
+                    "uuid": "c58a8805-7397-4b2d-a412-b81a7f01132d"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,2104 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SDA2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 422.800558,
+                        "y": 148.485558
+                    },
+                    "uuid": "9ff45066-9acd-424f-97b4-0b6edcebf2bb"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_3V3' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_TX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 456.550608,
+                        "y": 179.798632
+                    },
+                    "uuid": "c58a8805-7397-4b2d-a412-b81a7f01132d"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_UART_MCU_TX] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 456.550608,
+                        "y": 179.798632
+                    },
+                    "uuid": "c58a8805-7397-4b2d-a412-b81a7f01132d"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0025 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SCL2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 422.450532,
+                        "y": 149.585533
+                    },
+                    "uuid": "459e7dc3-2725-4b1a-83b6-80c95b3566ae"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1525 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SCL2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 422.450532,
+                        "y": 149.585533
+                    },
+                    "uuid": "459e7dc3-2725-4b1a-83b6-80c95b3566ae"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,0525 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SCL2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 422.450532,
+                        "y": 149.585533
+                    },
+                    "uuid": "459e7dc3-2725-4b1a-83b6-80c95b3566ae"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,2025 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SCL2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 422.450532,
+                        "y": 149.585533
+                    },
+                    "uuid": "459e7dc3-2725-4b1a-83b6-80c95b3566ae"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 435.716587,
+                        "y": 156.286415
+                    },
+                    "uuid": "d2798249-4263-44cf-a1b8-967b45f41c2b"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,0525 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 435.716587,
+                        "y": 156.286415
+                    },
+                    "uuid": "d2798249-4263-44cf-a1b8-967b45f41c2b"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 435.716587,
+                        "y": 156.286415
+                    },
+                    "uuid": "d2798249-4263-44cf-a1b8-967b45f41c2b"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора между отв. (board setup constraints hole зазор 0,2500 mm; текущий 0,1025 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_INT2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 435.716587,
+                        "y": 156.286415
+                    },
+                    "uuid": "d2798249-4263-44cf-a1b8-967b45f41c2b"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,1111 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_PSTOP2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 425.037494,
+                        "y": 146.248622
+                    },
+                    "uuid": "891eb8a1-0046-4ba6-982d-b57d098886db"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'PWR_3V3' зазор 0,2000 mm; текущий 0,1693 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_PSTOP2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 425.037494,
+                        "y": 146.248622
+                    },
+                    "uuid": "891eb8a1-0046-4ba6-982d-b57d098886db"
+                },
+                {
+                    "description": "Зона '3V3 In2 fanout distribution' [+3v3] на In2.Cu, приоритет 20",
+                    "pos": {
+                        "x": 484.3,
+                        "y": 139.0
+                    },
+                    "uuid": "0d6c0e1a-8aaa-4fe2-8b9e-0621bf230124"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (netclass 'GND_PLANE' зазор 0,2000 mm; текущий 0,1475 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_NCE2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 443.826413,
+                        "y": 154.686415
+                    },
+                    "uuid": "f2e7bda2-3441-48ba-b03b-c2dc99a0900d"
+                },
+                {
+                    "description": "Зона [GND] на In1.Cu, приоритет 0",
+                    "pos": {
+                        "x": 258.7,
+                        "y": 72.5
+                    },
+                    "uuid": "7094b952-8192-45ae-a4a4-f425a4216027"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Нарушение зазора (зоны зазор 0,2500 mm; текущий 0,1975 mm)",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_GPIO_NCE2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 443.826413,
+                        "y": 154.686415
+                    },
+                    "uuid": "f2e7bda2-3441-48ba-b03b-c2dc99a0900d"
+                },
+                {
+                    "description": "Зона '24V common distribution part 5' [+24v] на In2.Cu, приоритет 0",
+                    "pos": {
+                        "x": 437.705001,
+                        "y": 73.5
+                    },
+                    "uuid": "0f8ea63c-e4b6-4830-be34-0ac99290023e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Дорожка имеет не подключённый край",
+            "items": [
+                {
+                    "description": "Дорожка [/Dual_USB_C_ports_6/STM_SCL2] на F.Cu, длина 1,2728 mm",
+                    "pos": {
+                        "x": 421.76,
+                        "y": 150.82
+                    },
+                    "uuid": "6d73ff98-36b3-4af9-a080-8d2f4c6848ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Перех. отв. не подключено или подключено к одному слою",
+            "items": [
+                {
+                    "description": "Перех. отв. [/Dual_USB_C_ports_6/STM_SCL2] на F.Cu - B.Cu",
+                    "pos": {
+                        "x": 422.450532,
+                        "y": 149.585533
+                    },
+                    "uuid": "459e7dc3-2725-4b1a-83b6-80c95b3566ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Дорожка имеет не подключённый край",
+            "items": [
+                {
+                    "description": "Дорожка [Net-(DD33-COMP)] на B.Cu, длина 2,5500 mm",
+                    "pos": {
+                        "x": 417.86,
+                        "y": 150.32
+                    },
+                    "uuid": "d45bdbed-0320-494c-b301-0a8f8cd3c2ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}
