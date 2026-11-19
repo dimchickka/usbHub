@@ -1,8 +1,0 @@
-{
-  "physical_copper_and_components_unchanged": true,
-  "schematic_electrical_nodes_unchanged": true,
-  "drc": {},
-  "parity": {},
-  "unconnected": 0,
-  "erc": {}
-}
