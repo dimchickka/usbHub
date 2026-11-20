@@ -9,4 +9,6 @@
   (lib (name "USB_PD_20Port")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/ProjectCache/USB_PD_20Port.kicad_sym")(options "")(descr "Symbols used by this project"))
   (lib (name "USB_PD_20Ports")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/ProjectCache/USB_PD_20Ports.kicad_sym")(options "")(descr "Symbols used by this project"))
   (lib (name "power")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/ProjectCache/power.kicad_sym")(options "")(descr "Symbols used by this project"))
+
+(lib (name "Mechanical")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/Mechanical.kicad_sym")(options "")(descr "Project-local standard mounting hole symbol"))
 )

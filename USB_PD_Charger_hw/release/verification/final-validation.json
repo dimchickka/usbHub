@@ -1,30 +1,69 @@
 {
   "pcb_files_in_workspace": 1,
-  "main_pcb_sha256": "253852e2c0829ba4a29214918964e637a5199da6b85769ce2b762ed7e72c949c",
+  "main_pcb_sha256": "58099ca8179d2a41b2ef3bf9d7a2a2d3fe52a956454a9edc758b6c73f669f864",
   "drc_violations": 0,
   "erc_violations": 0,
   "schematic_parity": 0,
   "unconnected": 0,
-  "missing_3d_models": 0,
-  "files_at_least_100MB": [],
+  "erc_schematic_sha256": "5163eaed186e8c33548c8b1fea9e66a423e538256dcfc3c8a0a4d00ed8b9c9e1",
   "fabrication_zip_integrity": "passed",
-  "erc_schematic_sha256": "7b42f8ccb800edbaba98c856a61b45e3c9974919648ca43c6db849395219a3bd",
-  "erc_note": "All schematic sources, project and rules unchanged from previous clean ERC.",
-  "in2_3v3_cutout_filled": true,
-  "track_geometry_unchanged_by_this_change": true,
-  "existing_track_geometry_preserved": true,
-  "added_GND_stitches": 4,
-  "wide_void_audit": {
-    "remaining_regions": 0,
-    "checked_layers": [
-      "F.Cu",
-      "In1.Cu",
-      "In2.Cu",
-      "B.Cu"
-    ],
-    "free_radius_mm": 0.65,
-    "minimum_eroded_area_mm2": 0.5
-  },
-  "wide_3v3_plane": true,
-  "all_tracks_vias_and_placements_unchanged": true
+  "original_tracks_and_vias_preserved": true,
+  "original_component_placements_preserved": true,
+  "mounting_holes": [
+    {
+      "reference": "H6",
+      "x_mm": 476.3,
+      "y_mm": 490.108,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H3",
+      "x_mm": 266.7,
+      "y_mm": 490.108,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H1",
+      "x_mm": 265.7,
+      "y_mm": 80.5,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H4",
+      "x_mm": 476.3,
+      "y_mm": 80.5,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H5",
+      "x_mm": 421.0,
+      "y_mm": 282.0,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H2",
+      "x_mm": 322.0,
+      "y_mm": 284.0,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    }
+  ],
+  "corner_radius_mm": 3,
+  "npth_drill_contains_six_3_2mm_holes": true,
+  "dnp_holes_excluded_from_pick_and_place": true,
+  "sdram_spread_mm": 0.7269890965089019,
+  "mounting_references_hidden": true,
+  "drc_basis": "Native DRC clean before hiding H1-H6. Verified CAD diff adds only six text visibility flags; geometry, routing and fills unchanged.",
+  "drc_checked_geometry_sha256": "388b8f7023e2fd07a0a472ffc3fdf6c831d5ec01d28362a35c72664d902226aa"
 }

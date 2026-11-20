@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\study\7sem\courseWork\USB_PD_Charger\USB_PD_Charger_hw\USB_PD_Charger.kicad_sch</source>
-    <date>2026-11-19T07:38:56+0300</date>
+    <date>2026-11-20T13:05:41+0300</date>
     <tool>Eeschema 9.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2293,6 +2293,120 @@
       <property name="ki_fp_filters" value="*Fuse*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>742e7cce-dc87-4b5e-912e-4cf7faa47758</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_M3</value>
+      <footprint>MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_PD_Charger.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1f74052-e25d-437e-9579-8f2a0ca2d49b</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_M3</value>
+      <footprint>MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_PD_Charger.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b357d6ba-5fd5-4474-85d7-34c88453fd08</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_M3</value>
+      <footprint>MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_PD_Charger.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fcbc4e8-6aaf-40e5-a6d7-305edce2c326</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_M3</value>
+      <footprint>MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_PD_Charger.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5e81eea-8337-4855-aeb8-a8c288ece2fe</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_M3</value>
+      <footprint>MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_PD_Charger.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dadb1fa2-61bf-4737-9331-ecbc4175a7f4</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_M3</value>
+      <footprint>MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB_PD_Charger.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>345eae59-a44d-42e2-a998-ce08175b0cb9</tstamps>
     </comp>
     <comp ref="L1">
       <value>BLM15AG102SN1</value>
@@ -37847,6 +37961,20 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
     <libpart lib="Power_kl" part="PT4110">
       <description>Boost LED: 35v 20mA</description>
       <fields>
@@ -38481,6 +38609,9 @@
     </library>
     <library logical="Diode">
       <uri>D:\study\7sem\courseWork\USB_PD_Charger\USB_PD_Charger_hw/libs/Symbols/ProjectCache/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>D:\study\7sem\courseWork\USB_PD_Charger\USB_PD_Charger_hw/libs/Symbols/Mechanical.kicad_sym</uri>
     </library>
     <library logical="Power_kl">
       <uri>D:\study\7sem\courseWork\USB_PD_Charger\USB_PD_Charger_hw/libs/Symbols/ProjectCache/Power_kl.kicad_sym</uri>

@@ -5,6 +5,89 @@
 	(uuid "bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31")
 	(paper "A2")
 	(lib_symbols
+(symbol "Mechanical:MountingHole"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "mounting hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MountingHole_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "Connectors_kl:SOCKET_7"
 			(pin_numbers
 				(hide yes)
@@ -34652,4 +34735,41 @@
 		(pin "1" (uuid "7343777f-1b73-4c39-88ba-f5ae8a62094d"))
 		(instances (project "USB_PD_Charger" (path "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31" (reference "#FLG03") (unit 1))))
 	)
+
+(symbol (lib_id "Mechanical:MountingHole") (at 440 305 0) (unit 1) (in_bom no) (on_board yes) (dnp yes) (uuid "b1f74052-e25d-437e-9579-8f2a0ca2d49b")
+ (property "Reference" "H1" (at 440 301 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "MountingHole_M3" (at 440 309 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4" (at 440 305 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Datasheet" "~" (at 440 305 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (instances (project "USB_PD_Charger" (path "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31" (reference "H1") (unit 1)))))
+(symbol (lib_id "Mechanical:MountingHole") (at 475 305 0) (unit 1) (in_bom no) (on_board yes) (dnp yes) (uuid "b357d6ba-5fd5-4474-85d7-34c88453fd08")
+ (property "Reference" "H2" (at 475 301 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "MountingHole_M3" (at 475 309 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4" (at 475 305 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Datasheet" "~" (at 475 305 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (instances (project "USB_PD_Charger" (path "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31" (reference "H2") (unit 1)))))
+(symbol (lib_id "Mechanical:MountingHole") (at 510 305 0) (unit 1) (in_bom no) (on_board yes) (dnp yes) (uuid "8fcbc4e8-6aaf-40e5-a6d7-305edce2c326")
+ (property "Reference" "H3" (at 510 301 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "MountingHole_M3" (at 510 309 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4" (at 510 305 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Datasheet" "~" (at 510 305 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (instances (project "USB_PD_Charger" (path "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31" (reference "H3") (unit 1)))))
+(symbol (lib_id "Mechanical:MountingHole") (at 440 327 0) (unit 1) (in_bom no) (on_board yes) (dnp yes) (uuid "c5e81eea-8337-4855-aeb8-a8c288ece2fe")
+ (property "Reference" "H4" (at 440 323 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "MountingHole_M3" (at 440 331 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4" (at 440 327 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Datasheet" "~" (at 440 327 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (instances (project "USB_PD_Charger" (path "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31" (reference "H4") (unit 1)))))
+(symbol (lib_id "Mechanical:MountingHole") (at 475 327 0) (unit 1) (in_bom no) (on_board yes) (dnp yes) (uuid "dadb1fa2-61bf-4737-9331-ecbc4175a7f4")
+ (property "Reference" "H5" (at 475 323 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "MountingHole_M3" (at 475 331 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4" (at 475 327 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Datasheet" "~" (at 475 327 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (instances (project "USB_PD_Charger" (path "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31" (reference "H5") (unit 1)))))
+(symbol (lib_id "Mechanical:MountingHole") (at 510 327 0) (unit 1) (in_bom no) (on_board yes) (dnp yes) (uuid "345eae59-a44d-42e2-a998-ce08175b0cb9")
+ (property "Reference" "H6" (at 510 323 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "MountingHole_M3" (at 510 331 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "MechanicalMounting:MountingHole_3.2mm_M3_Clearance7.4" (at 510 327 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Datasheet" "~" (at 510 327 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (instances (project "USB_PD_Charger" (path "/bb1b7a7f-c58f-4078-9d9f-a209fa5e3a31" (reference "H6") (unit 1)))))
 )

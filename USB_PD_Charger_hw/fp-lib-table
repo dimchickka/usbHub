@@ -17,4 +17,6 @@
   (lib (name "Package_TO_SOT_SMD")(type "KiCad")(uri "${KIPRJMOD}/libs/Standard/Package_TO_SOT_SMD.pretty")(options "")(descr "Used standard KiCad footprints, project-local copy"))
   (lib (name "Resistor_SMD")(type "KiCad")(uri "${KIPRJMOD}/libs/Standard/Resistor_SMD.pretty")(options "")(descr "Used standard KiCad footprints, project-local copy"))
   (lib (name "TestPoint")(type "KiCad")(uri "${KIPRJMOD}/libs/Standard/TestPoint.pretty")(options "")(descr "Used standard KiCad footprints, project-local copy"))
+
+(lib (name "MechanicalMounting")(type "KiCad")(uri "${KIPRJMOD}/libs/MechanicalMounting.pretty")(options "")(descr "M3 mounting holes with copper clearance"))
 )

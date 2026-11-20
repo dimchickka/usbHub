@@ -1,20 +1,15 @@
 {
-  "main_sha": "253852e2c0829ba4a29214918964e637a5199da6b85769ce2b762ed7e72c949c",
-  "schematic_sha": "7b42f8ccb800edbaba98c856a61b45e3c9974919648ca43c6db849395219a3bd",
+  "main_sha": "58099ca8179d2a41b2ef3bf9d7a2a2d3fe52a956454a9edc758b6c73f669f864",
+  "schematic_sha": "5163eaed186e8c33548c8b1fea9e66a423e538256dcfc3c8a0a4d00ed8b9c9e1",
   "project_sha": "11ad7ebf14ac58eafc0c4d65205dd93d8e2f071ad7a8c43dbb5467cbdda0aec2",
   "rules_sha": "b3f77be6fd6f04d9dd6f90a1618e43831a609573b4a9ea5aa60f7c6b05af46b8",
-  "footprints": 1236,
-  "pads": 4656,
+  "footprints": 1242,
+  "pads": 4662,
   "tracks": 18703,
-  "vias": 2976,
+  "vias": 2989,
   "copper_layers": 4,
   "non_top_components": [],
   "duplicate_references": {},
-  "power_groups": {
-    "GND": 1,
-    "+3v3": 1,
-    "+24v": 1
-  },
   "sdram": {
     "count": 38,
     "lengths_mm": {
@@ -57,566 +52,60 @@
       "/SDRAM_DQ10": 93.50001728679213,
       "/SDRAM_DQMH": 93.50003878289435
     },
-    "min_mm": 93.01156802954605,
-    "max_mm": 93.73855712605496,
+    "minimum_mm": 93.01156802954605,
+    "maximum_mm": 93.73855712605496,
     "spread_mm": 0.7269890965089019
   },
-  "via_sizes": {
-    "0.6/0.3": 1862,
-    "0.8/0.4": 1032,
-    "1.5/0.8": 58,
-    "1.0/0.5": 20
-  },
-  "track_widths_mm": {
-    "0.2": 2230,
-    "0.15": 13607,
-    "0.5": 2432,
-    "0.25": 482,
-    "0.22": 1,
-    "0.26": 2,
-    "0.23": 1,
-    "0.44": 1,
-    "0.24": 1,
-    "0.38": 2,
-    "0.21": 1,
-    "0.32": 1,
-    "0.4": 60
-  },
-  "zones": [
-    {
-      "name": "GND open area 14",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 468.1181768351115,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 35",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 527.3685922010535,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 7",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 229.36971763335,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 10",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 467.6173159993105,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 16",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 487.493050844246,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 15",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 478.867540391297,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 18",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 575.117563205695,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 21",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 494.117867134651,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 9",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 459.7429489780185,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 30",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 528.617522095521,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 32",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 531.6177461098584,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 26",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 499.3675369192075,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 22",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 497.49292939241,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 2",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 1101.3694985343316,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 34",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 447.4926230388495,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 1",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 358.3659369573405,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 3",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 603.36861493181,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 8",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 201.2436140446885,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 19",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 882.7391694827985,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 6",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 559.865988109562,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 25",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 744.8645793589735,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 20",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 569.3675480147955,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 31",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 754.490327103112,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 29",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 759.114458705783,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 5",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 3040.3521581106356,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 12",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 478.492734733066,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 4",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 206.9940546475005,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 11",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 756.364846662516,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 27",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 505.1179646917765,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 33",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 2140.357248703573,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 23",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 760.98963451045,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 17",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 902.114463544184,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 28",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 528.9941569034485,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 13",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 754.365311027784,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 24",
-      "net": "GND",
-      "layer": "F.Cu",
-      "area_mm2": 509.6175268177185,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 54",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 1453.9815758077395,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 42",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 237.1185483147355,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 48",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 1623.4807676537255,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 36",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 9299.540671885397,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 37",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 576.369686521192,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 40",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 148.867879655384,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 52",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 3842.577529102918,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 55",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 2135.10170049268,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 41",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 993.3654646353655,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 53",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 1448.981395706966,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 49",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 3745.958614979454,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 51",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 1462.1057927645295,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 50",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 1448.2327403947236,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 57",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 867.861611066577,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 56",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 905.116326789273,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 45",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 1452.6058199875854,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 39",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 305.492171612225,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 43",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 3794.455431764731,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 46",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 4115.330227765717,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 38",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 264.493437929318,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 47",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 1619.8552077523234,
-      "islands": 1
-    },
-    {
-      "name": "GND open area 44",
-      "net": "GND",
-      "layer": "B.Cu",
-      "area_mm2": 1455.606870990091,
-      "islands": 1
-    },
-    {
-      "name": "",
-      "net": "GND",
-      "layer": "In1.Cu",
-      "area_mm2": 93053.99006647718,
-      "islands": 1
-    },
-    {
-      "name": "3V3 In2 fanout distribution",
-      "net": "+3v3",
-      "layer": "In2.Cu",
-      "area_mm2": 10759.658786184324,
-      "islands": 2
-    },
-    {
-      "name": "24V common distribution part 5",
-      "net": "+24v",
-      "layer": "In2.Cu",
-      "area_mm2": 75405.06099751829,
-      "islands": 2
-    },
-    {
-      "name": "GND reference under GD32 SDRAM and upper signal corridor",
-      "net": "GND",
-      "layer": "In2.Cu",
-      "area_mm2": 3789.518308549697,
-      "islands": 1
-    },
-    {
-      "name": "Parallel input feed before F5",
-      "net": "Net-(F5-Pad1)",
-      "layer": "In2.Cu",
-      "area_mm2": 77.0439421680315,
-      "islands": 1
-    },
-    {
-      "name": "Parallel input feed before F3",
-      "net": "Net-(F3-Pad1)",
-      "layer": "In2.Cu",
-      "area_mm2": 90.1371088249305,
-      "islands": 1
-    },
-    {
-      "name": "Parallel input feed before F2",
-      "net": "Net-(F2-Pad1)",
-      "layer": "In2.Cu",
-      "area_mm2": 71.038259360921,
-      "islands": 1
-    },
-    {
-      "name": "Parallel input feed before F4",
-      "net": "Net-(F4-Pad1)",
-      "layer": "In2.Cu",
-      "area_mm2": 79.1727582173135,
-      "islands": 1
-    },
-    {
-      "name": "24V common distribution part 5 part 2",
-      "net": "+24v",
-      "layer": "In2.Cu",
-      "area_mm2": 0.0,
-      "islands": 0
-    },
-    {
-      "name": "Parallel input feed before F1",
-      "net": "Net-(F1-Pad1)",
-      "layer": "In2.Cu",
-      "area_mm2": 70.997328386828,
-      "islands": 1
+  "mounting_holes": [
+    {
+      "reference": "H6",
+      "x_mm": 476.3,
+      "y_mm": 490.108,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H3",
+      "x_mm": 266.7,
+      "y_mm": 490.108,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H1",
+      "x_mm": 265.7,
+      "y_mm": 80.5,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H4",
+      "x_mm": 476.3,
+      "y_mm": 80.5,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H5",
+      "x_mm": 421.0,
+      "y_mm": 282.0,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
+    },
+    {
+      "reference": "H2",
+      "x_mm": 322.0,
+      "y_mm": 284.0,
+      "drill_mm": 3.2,
+      "DNP": true,
+      "copper_keepout_diameter_mm": 7.4
     }
   ],
-  "drc_rule_severities": {
-    "annular_width": "error",
-    "clearance": "error",
-    "connection_width": "warning",
-    "copper_edge_clearance": "error",
-    "copper_sliver": "warning",
-    "courtyards_overlap": "error",
-    "creepage": "error",
-    "diff_pair_gap_out_of_range": "error",
-    "diff_pair_uncoupled_length_too_long": "error",
-    "drill_out_of_range": "error",
-    "duplicate_footprints": "warning",
-    "extra_footprint": "warning",
-    "footprint": "error",
-    "footprint_filters_mismatch": "ignore",
-    "footprint_symbol_mismatch": "warning",
-    "footprint_type_mismatch": "ignore",
-    "hole_clearance": "error",
-    "hole_to_hole": "warning",
-    "holes_co_located": "warning",
-    "invalid_outline": "error",
-    "isolated_copper": "warning",
-    "item_on_disabled_layer": "error",
-    "items_not_allowed": "error",
-    "length_out_of_range": "error",
-    "lib_footprint_issues": "warning",
-    "lib_footprint_mismatch": "warning",
-    "malformed_courtyard": "error",
-    "microvia_drill_out_of_range": "error",
-    "mirrored_text_on_front_layer": "warning",
-    "missing_courtyard": "ignore",
-    "missing_footprint": "warning",
-    "net_conflict": "warning",
-    "nonmirrored_text_on_back_layer": "warning",
-    "npth_inside_courtyard": "ignore",
-    "padstack": "warning",
-    "pth_inside_courtyard": "ignore",
-    "shorting_items": "error",
-    "silk_edge_clearance": "warning",
-    "silk_over_copper": "warning",
-    "silk_overlap": "warning",
-    "skew_out_of_range": "error",
-    "solder_mask_bridge": "error",
-    "starved_thermal": "error",
-    "text_height": "warning",
-    "text_on_edge_cuts": "error",
-    "text_thickness": "warning",
-    "through_hole_pad_without_hole": "error",
-    "too_many_vias": "error",
-    "track_angle": "error",
-    "track_dangling": "warning",
-    "track_segment_length": "error",
-    "track_width": "error",
-    "tracks_crossing": "error",
-    "unconnected_items": "error",
-    "unresolved_variable": "error",
-    "via_dangling": "warning",
-    "zones_intersect": "error"
-  },
-  "drc_exclusions": [],
-  "tiny_signal_tracks": [],
-  "physical_geometry_identical_to_initial_final_audit": true,
-  "fuse_lands_changed_per_manufacturer": true,
-  "right_row_user_template_copied": true,
-  "right_row_power_branches_completed": true,
-  "latest_template_source": "DD24/DD27/DD28"
+  "corner_radius_mm": 3,
+  "mounting_references_hidden": true
 }
