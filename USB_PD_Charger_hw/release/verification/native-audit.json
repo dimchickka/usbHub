@@ -1,12 +1,12 @@
 {
-  "main_sha": "58099ca8179d2a41b2ef3bf9d7a2a2d3fe52a956454a9edc758b6c73f669f864",
+  "main_sha": "48ca02d147feb9b8ab7b4ee37e1f7216d5b05981d9970b06c44819a3fcc81a81",
   "schematic_sha": "5163eaed186e8c33548c8b1fea9e66a423e538256dcfc3c8a0a4d00ed8b9c9e1",
   "project_sha": "11ad7ebf14ac58eafc0c4d65205dd93d8e2f071ad7a8c43dbb5467cbdda0aec2",
   "rules_sha": "b3f77be6fd6f04d9dd6f90a1618e43831a609573b4a9ea5aa60f7c6b05af46b8",
   "footprints": 1242,
   "pads": 4662,
-  "tracks": 18703,
-  "vias": 2989,
+  "tracks": 18823,
+  "vias": 2979,
   "copper_layers": 4,
   "non_top_components": [],
   "duplicate_references": {},
@@ -56,6 +56,98 @@
     "maximum_mm": 93.73855712605496,
     "spread_mm": 0.7269890965089019
   },
+  "capacitor_3v3_plane_connections": [
+    {
+      "stm": "DD19",
+      "capacitor": "C194",
+      "via_xy_mm": [
+        280.1,
+        387.33
+      ],
+      "via_inside_filled_3v3_In2": true
+    },
+    {
+      "stm": "DD4",
+      "capacitor": "C44",
+      "via_xy_mm": [
+        280.1,
+        175.4042
+      ],
+      "via_inside_filled_3v3_In2": true
+    },
+    {
+      "stm": "DD9",
+      "capacitor": "C94",
+      "via_xy_mm": [
+        280.1,
+        245.0042
+      ],
+      "via_inside_filled_3v3_In2": true
+    },
+    {
+      "stm": "DD14",
+      "capacitor": "C144",
+      "via_xy_mm": [
+        280.1,
+        317.73
+      ],
+      "via_inside_filled_3v3_In2": true
+    },
+    {
+      "stm": "DD24",
+      "capacitor": "C244",
+      "via_xy_mm": [
+        280.1,
+        456.93
+      ],
+      "via_inside_filled_3v3_In2": true
+    },
+    {
+      "stm": "DD29",
+      "capacitor": "C294",
+      "via_xy_mm": [
+        462.86,
+        178.79
+      ],
+      "via_inside_filled_3v3_In2": true
+    },
+    {
+      "stm": "DD34",
+      "capacitor": "C344",
+      "via_xy_mm": [
+        462.86,
+        248.39
+      ],
+      "via_inside_filled_3v3_In2": true
+    },
+    {
+      "stm": "DD39",
+      "capacitor": "C394",
+      "via_xy_mm": [
+        462.86,
+        321.1158
+      ],
+      "via_inside_filled_3v3_In2": true
+    },
+    {
+      "stm": "DD44",
+      "capacitor": "C444",
+      "via_xy_mm": [
+        462.86,
+        390.7158
+      ],
+      "via_inside_filled_3v3_In2": true
+    },
+    {
+      "stm": "DD49",
+      "capacitor": "C494",
+      "via_xy_mm": [
+        462.86,
+        460.3158
+      ],
+      "via_inside_filled_3v3_In2": true
+    }
+  ],
   "mounting_holes": [
     {
       "reference": "H6",
@@ -107,5 +199,25 @@
     }
   ],
   "corner_radius_mm": 3,
-  "mounting_references_hidden": true
+  "mounting_references_hidden": true,
+  "replication_preservation": {
+    "source_pcb_sha256": "48ca02d147feb9b8ab7b4ee37e1f7216d5b05981d9970b06c44819a3fcc81a81",
+    "template_preserved": true,
+    "unrelated_tracks_vias_and_components_preserved": true,
+    "zone_outlines_preserved": true,
+    "replicated_to": [
+      "C44",
+      "C94",
+      "C144",
+      "C244",
+      "C294",
+      "C344",
+      "C394",
+      "C444",
+      "C494"
+    ],
+    "removed_track_via_count": 27,
+    "added_track_via_count": 63,
+    "verified_exact_delta_on_all_nine_targets": true
+  }
 }

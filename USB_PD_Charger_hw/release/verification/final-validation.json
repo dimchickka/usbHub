@@ -1,14 +1,12 @@
 {
   "pcb_files_in_workspace": 1,
-  "main_pcb_sha256": "58099ca8179d2a41b2ef3bf9d7a2a2d3fe52a956454a9edc758b6c73f669f864",
+  "main_pcb_sha256": "48ca02d147feb9b8ab7b4ee37e1f7216d5b05981d9970b06c44819a3fcc81a81",
   "drc_violations": 0,
   "erc_violations": 0,
   "schematic_parity": 0,
   "unconnected": 0,
   "erc_schematic_sha256": "5163eaed186e8c33548c8b1fea9e66a423e538256dcfc3c8a0a4d00ed8b9c9e1",
   "fabrication_zip_integrity": "passed",
-  "original_tracks_and_vias_preserved": true,
-  "original_component_placements_preserved": true,
   "mounting_holes": [
     {
       "reference": "H6",
@@ -64,6 +62,47 @@
   "dnp_holes_excluded_from_pick_and_place": true,
   "sdram_spread_mm": 0.7269890965089019,
   "mounting_references_hidden": true,
-  "drc_basis": "Native DRC clean before hiding H1-H6. Verified CAD diff adds only six text visibility flags; geometry, routing and fills unchanged.",
-  "drc_checked_geometry_sha256": "388b8f7023e2fd07a0a472ffc3fdf6c831d5ec01d28362a35c72664d902226aa"
+  "erc_note": "Schematic, project and DRC rules unchanged since clean native ERC.",
+  "c244_replication": {
+    "source_pcb_sha256": "df834fe9d6af978d5deb9149737165eedf55857c0439932ec29d13a3390ec396",
+    "template_preserved": true,
+    "unrelated_tracks_vias_and_components_preserved": true,
+    "zone_outlines_preserved": true,
+    "replicated_to": [
+      "C44",
+      "C94",
+      "C144",
+      "C194",
+      "C294",
+      "C344",
+      "C394",
+      "C444",
+      "C494"
+    ],
+    "removed_track_via_count": 153,
+    "added_track_via_count": 216,
+    "verified_exact_delta_on_all_nine_targets": true
+  },
+  "all_ten_capacitor_3v3_vias_in_filled_In2": true,
+  "all_zones_refilled": true,
+  "c194_via_replication": {
+    "source_pcb_sha256": "48ca02d147feb9b8ab7b4ee37e1f7216d5b05981d9970b06c44819a3fcc81a81",
+    "template_preserved": true,
+    "unrelated_tracks_vias_and_components_preserved": true,
+    "zone_outlines_preserved": true,
+    "replicated_to": [
+      "C44",
+      "C94",
+      "C144",
+      "C244",
+      "C294",
+      "C344",
+      "C394",
+      "C444",
+      "C494"
+    ],
+    "removed_track_via_count": 27,
+    "added_track_via_count": 63,
+    "verified_exact_delta_on_all_nine_targets": true
+  }
 }
